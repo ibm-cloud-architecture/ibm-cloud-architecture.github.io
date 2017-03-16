@@ -51,7 +51,6 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 | Session  | Abstract  | Speaker(s)  |
 |:-------------|:------------------|:------|
 | [1308](https://myibm.ibm.com/events/interconnect/all-sessions/session/1308A)  | Bluemix Local on OpenStack for American Airlines: Lessons Learnt | Animesh Singh; Kyle Brown  |
-| 1900  | Building a Mobile Solution with MobileFirst, Bluemix, APIs, and Weather Data | Roland Barcia; Hari Dumpa, Florida Power and Light |
 | [2697](https://myibm.ibm.com/events/interconnect/all-sessions/session/2697A)  | Top 10 Performance Best Practices for Designing and Deploying Enterprise Applications on IBM Bluemix | Surya Duggirala  |
 | [2702](https://myibm.ibm.com/events/interconnect/all-sessions/session/2702A)  | Case Study of Architecture and Performance of an Online Banking Application on IBM Bluemix | Surya Duggirala; Alan Yu, Royal Bank of Canada |
 | [1663](https://myibm.ibm.com/events/interconnect/all-sessions/session/1663A)  | HA/DR topology with BlueMix API Management Cloud Services | Tien Nguyen; Callum Jackson |

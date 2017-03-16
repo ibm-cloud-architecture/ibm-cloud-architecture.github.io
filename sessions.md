@@ -67,7 +67,6 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 | [2204](https://myibm.ibm.com/events/interconnect/all-sessions/session/2204B)  | Microservices; Powered by Containers as a Service | Chris Rosen; Rick Osowski |
 | [2306](https://myibm.ibm.com/events/interconnect/all-sessions/session/2306A)  | Transforming to Microservices | Kyle Brown; Roland Barcia |
 | [2405](https://myibm.ibm.com/events/interconnect/all-sessions/session/2405B)  | Doing Microservices in Bluemix the Right Way  | Reid Levesque, RBC  |
-| 4274  | Building Microservices Based Architecture at Hertz | Roland Barcia; Gregory White, Hertz  |
 | [5421](https://myibm.ibm.com/events/interconnect/all-sessions/session/5421A)  | How to Build Homogeneously from One Source Repository to Mobile and Microservices Targets | Roland Barcia; John Pearson, Wakefern |
 
 ### Process Transformation

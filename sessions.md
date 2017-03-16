@@ -37,14 +37,14 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 | Session  | Abstract  | Speaker(s)  |
 |:-------------|:------------------|:------|
 | [2705](https://myibm.ibm.com/events/interconnect/all-sessions/session/2705A)  | Monitoring and Diagnosing the Performance Problems of Enterprise Applications on IBM Bluemix | Vishal Charegaonkar; Surya Duggirala  |
-| 7032  | Automate the deployment of your apps using Docker and the delivery pipeline in Bluemix | Jesus Arteche  |
+| [2720](https://myibm.ibm.com/events/interconnect/all-sessions/session/2720A)  | Application Deployment Automation in IBM Bluemix Using Docker, IBM Containers and IBM Toolchains | Jesus Arteche, Jesus Almaraz  |
 | [3060](https://myibm.ibm.com/events/interconnect/all-sessions/session/3060A)  | Build your first Omni-Bot - a chat bot that helps you handle your Service Management incidents  | Robert Barron |
 
 ### Hybrid Cloud
 
 | Session  | Abstract  | Speaker(s)  |
 |:-------------|:------------------|:------|
-| 4030  | Guidance on Extending Your Enterprise Integration with APIs, Hybrid Messaging and Cloud Connectors  | Tien Nguyen; John Alcorn  |
+| [4030](https://myibm.ibm.com/events/interconnect/all-sessions/session/4030A)  | Guidance on Extending Your Enterprise Integration with APIs, Hybrid Messaging and Cloud Connectors  | Tien Nguyen; John Alcorn  |
 
 ### IBM Cloud Platform
 
@@ -57,7 +57,7 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 | [1663](https://myibm.ibm.com/events/interconnect/all-sessions/session/1663A)  | HA/DR topology with BlueMix API Management Cloud Services | Tien Nguyen; Callum Jackson |
 | [5167](https://myibm.ibm.com/events/interconnect/all-sessions/session/5167A)  | Adding Cloud Services to enhance your Digital Experience  | Roland Barcia; Matt Dragon, Charity Navigator |
 | 6542  | Manulife – 18 months of API Creation/Integration & Speeding App Development | Marc Oullette, Manulife; Steve Tam  |
-| 6654  | Driving Innovation Success in Large Enterprises leveraging Bluemix | Rachel Reinitz |
+| [6654](https://myibm.ibm.com/events/interconnect/all-sessions/session/6654A)  | Driving Innovation Success in Large Enterprises leveraging Bluemix | Rachel Reinitz |
 
 ### Microservices
 
@@ -66,7 +66,7 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 | [1255](https://myibm.ibm.com/events/interconnect/all-sessions/session/1255A)  | End to End Microservices | Roland Barcia; Kyle Brown |
 | [2191](https://myibm.ibm.com/events/interconnect/all-sessions/session/2191A)  | Microservices TV Panel Discussion: Stories from the Front Lines! | Erin Schnabel; Kyle Brown; Rick Osowski; Roland Barcia |
 | [2204](https://myibm.ibm.com/events/interconnect/all-sessions/session/2204B)  | Microservices; Powered by Containers as a Service | Chris Rosen; Rick Osowski |
-| 2306  | Transforming to Microservices | Kyle Brown; Roland Barcia |
+| [2306](https://myibm.ibm.com/events/interconnect/all-sessions/session/2306A)  | Transforming to Microservices | Kyle Brown; Roland Barcia |
 | [2405](https://myibm.ibm.com/events/interconnect/all-sessions/session/2405B)  | Doing Microservices in Bluemix the Right Way  | Reid Levesque, RBC  |
 | 4274  | Building Microservices Based Architecture at Hertz | Roland Barcia; Gregory White, Hertz  |
 | [5421](https://myibm.ibm.com/events/interconnect/all-sessions/session/5421A)  | How to Build Homogeneously from One Source Repository to Mobile and Microservices Targets | Roland Barcia; John Pearson, Wakefern |

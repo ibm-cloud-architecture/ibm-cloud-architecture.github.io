@@ -18,7 +18,6 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 
 | Session  | Abstract  | Speaker(s)  |
 |:-------------|:------------------|:------|
-| 1262  | From Simple Views to End-to-End Visibility of Service Health with DASH at Austrian Federal Railways | Harald Biedermann, Austrian Federal Railways; Robert Barron |
 | [2295](https://myibm.ibm.com/events/interconnect/all-sessions/session/2295A)  | Integrated Hybrid Ops Management - manage your cloud based resources with Netcool Operations Insight  | Zane Bray; Robert Barron  |
 | [3368](https://myibm.ibm.com/events/interconnect/all-sessions/session/3368A)  | Transitioning from IT Service Management to Cloud Service Management and Operations | Ingo Averdunk; Michael Kaczmarski |
 

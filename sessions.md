@@ -18,6 +18,7 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 
 | Session  | Abstract  | Speaker(s)  |
 |:-------------|:------------------|:------|
+| [1892](https://myibm.ibm.com/events/interconnect/all-sessions/session/1892A)  | How Netcool Manages IBM's Cloud | Robert Barron; Ingo Averdunk  |
 | [2295](https://myibm.ibm.com/events/interconnect/all-sessions/session/2295A)  | Integrated Hybrid Ops Management - manage your cloud based resources with Netcool Operations Insight  | Zane Bray; Robert Barron  |
 | [3368](https://myibm.ibm.com/events/interconnect/all-sessions/session/3368A)  | Transitioning from IT Service Management to Cloud Service Management and Operations | Ingo Averdunk; Michael Kaczmarski |
 

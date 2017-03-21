@@ -75,3 +75,7 @@ CASE is located in the **Cloud Confidence Center**, at the Solution Architecture
 |:-------------|:------------------|:------|
 | [6527](https://myibm.ibm.com/events/interconnect/all-sessions/session/6527A)  | A Guide and Method to Setup your Center of Excellence for your Process Transformation Program | Jerome Boyer; Jean Pommier  |
 | [6741](https://myibm.ibm.com/events/interconnect/all-sessions/session/6741A)  | Meet the Process Transformation Practitioners | Jerome Boyer; Dave Hay; Andy Garratt; Jean Pommier  |
+| [6443] (https://myibm.ibm.com/events/interconnect/all-sessions/session/6443A) | Performing ODM Insight Operations on a Real-Time, Production Application in Aviation | Jerome Boyer |
+| [3976] (https://myibm.ibm.com/events/interconnect/all-sessions/session/3976A)| How Many Rules? How Do We Estimate and Plan That?: Planning for Large-Scale Rules Projects | Jerome Boyer; Andy Garratt |
+| [1612] (https://myibm.ibm.com/events/interconnect/all-sessions/session/1612A)| Starting Your Cognitive and BPM Journey Using the Innovation and Design Thinking Methodology |Jerome Boyer ; Robert Grant|
+| [1614] (https://myibm.ibm.com/events/interconnect/all-sessions/session/1614A)| Context-Driven Conversation with Cognitive and Rule-Based Systems |Jerome Boyer ; Robert Grant|

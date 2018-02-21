@@ -6,11 +6,11 @@
   - [Install ICP on VMWare with Ubuntu-based Images](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Installing_ICp_on_prem_ubuntu.md)
   - [Install ICP on VMWare with Redhat-based Images](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/rhel_install/Installing_ICP_on_prem_rhel.md)
   - [Install ICP on AWS EC2 environment](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Installing_ICp_on_aws.md)
-  - [IBM Cloud Private Resiliency Best Practices]( https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Resiliency)
+  - [IBM Cloud Private Resiliency Best Practices]( https://github.com/ibm-cloud-architecture/refarch-privatecloud/tree/master/Resiliency)
   - [IBM Cloud Private Storage Best Practices]( https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/ICp-Storage_best_practice.md)
-  - [IBM Cloud Private DevOps Guidance]( https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Implementing%20DevOps%20for%20IBM%20Cloud.private.md)
+  - [IBM Cloud Private DevOps Guidance](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Implementing%20DevOps%20for%20IBM%20Cloud.private.md)
 
-- Assets: [Deploy Highly-Available MongoDB from IBM Cloud Private]( https://github.com/ibm-cloud-architecture/refarch-icp-mongodb)
+- Assets: [Deploy Highly-Available MongoDB from IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-icp-mongodb)
 - Assets: [Deploy ICP with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy)
 
 - Garage Method Architecture: [Private cloud for maximum control with the benefits of cloud](https://www.ibm.com/cloud/garage/content/architecture/private-cloud)

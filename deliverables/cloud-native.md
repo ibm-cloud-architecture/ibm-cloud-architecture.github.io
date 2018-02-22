@@ -3,7 +3,7 @@
 ## Cloud Native Application Development
 
 - Master GitHub Repository: [Run a Cloud Native Microservices Application on a Kubernetes Cluster using MiniKube, IBM Container Service, and IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes)
-  - [Making Microservices Resilient in IBM Cloud]( https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
+  - [Making Microservices Resilient in IBM Cloud](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
   - [Running Jenkins inside Kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
   - [Running a Spring Cloud Application on a Kubernetes Cluster](https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring)
 

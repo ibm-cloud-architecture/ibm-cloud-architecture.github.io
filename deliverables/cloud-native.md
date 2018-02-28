@@ -6,6 +6,7 @@
   - [Making Microservices Resilient in IBM Cloud](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
   - [Running Jenkins inside Kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
   - [Running a Spring Cloud Application on a Kubernetes Cluster](https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring)
+  - [Cluster to Cluster Microservices Communications](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/master/cluster-to-cluster)
 
 - Webinar: [Deploying microservices apps in IBM Cloud Private](https://www.ibm.com/blogs/bluemix/2018/01/webinar-deploying-microservices-application-in-ibm-cloud-private/)
 - Garage Method Architecture: [Microservices for fast time to market and improved app quality](https://www.ibm.com/devops/method/content/architecture/microservices/0_0)

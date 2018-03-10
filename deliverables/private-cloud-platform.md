@@ -10,6 +10,7 @@
   - [IBM Cloud Private Storage Best Practices](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/ICp-Storage_best_practice.md)
   - [IBM Cloud Private DevOps Guidance](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Implementing%20DevOps%20for%20IBM%20Cloud.private.md)
 
+- Assets: [Backup and Restore IBM Cloud Private environment](https://github.com/ibm-cloud-architecture/icp-backup)
 - Assets: [Deploy Highly-Available MongoDB from IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-icp-mongodb)
 - Assets: [Deploy ICP with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy)
 

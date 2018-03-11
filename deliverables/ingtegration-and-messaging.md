@@ -9,13 +9,15 @@
   - APIC Connect Content for the Inventory API definition and management(https://github.com/ibm-cloud-architecture/refarch-integration-api)
   - IBM Integration Bus Inventory gateway flow Gateway and orchestration flow(https://github.com/ibm-cloud-architecture/refarch-integration-esb)
   - Secure Gateway (https://github.com/ibm-cloud-architecture/refarch-integration-utilities) 
-- [Customer management for analytics micro service in JAXRS on Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
-- [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
+  - [Customer management for analytics micro service in JAXRS on Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
+  - [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
 
-Webinar: 
--[Watson Conversation Training
--[Watson Discoverty Training
+- Webinar: Inner Circle Session
+
+Garage Method Tutorials
+- Watson Conversation Training
+- Watson Discoverty Training
 
 - IBM Cloud Private Bootcamp
-  -[Hybrid Integration]
+  -Hybrid Integration
 

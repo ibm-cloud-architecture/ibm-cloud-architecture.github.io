@@ -2,11 +2,9 @@
 
 ## Cloud Integration & Messaging
 
-# TBD
-
-- Master GitHub Repository:[Hybrid Integration Reference Architecture](https://github.com/ibm-cloud-architecture/refarch-integration
-  -[CASE Portal web app to expose access and user interface for inventory DB}(https://github.com/ibm-cloud-architecture/refarch-caseinc-app)
-  - [Data Access Layer to deliver SOAP interface for Inventory management. JAXWS / JPA app.Mitigation for your app]](https://github.com/ibm-cloud-architecture/refarch-integration-inventory-dal)
+- Master GitHub Repository: [Hybrid Integration Reference Architecture](https://github.com/ibm-cloud-architecture/refarch-integration
+  - CASE Portal web app to expose access and user interface for inventory DB (https://github.com/ibm-cloud-architecture/refarch-caseinc-app)
+  - Data Access Layer to deliver SOAP interface for Inventory management JAXWS / JPA app(https://github.com/ibm-cloud-architecture/refarch-integration-inventory-dal)
   -[DB2 to support scripting and ddl for Inventory DB.](https://github.com/ibm-cloud-architecture/refarch-integration-inventory-db2)
   - [APIC Connect Content for the Inventory API definition and management](https://github.com/ibm-cloud-architecture/refarch-integration-api)
   [IBM Integration Bus - Inventory gateway flow Gateway and orchestration flow](https://github.com/ibm-cloud-architecture/refarch-integration-esb)

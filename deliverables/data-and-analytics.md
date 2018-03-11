@@ -9,7 +9,7 @@
 -  [Guidance on Install for glusterfs for DB2HA ICP Cluster Setup](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Resiliency/Configure_HA_ICP_cluster.md)
 
 - Webinar: 
-  -Putting it all together - need link
+  Putting it all together - need link
 
 
 

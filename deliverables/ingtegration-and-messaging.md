@@ -13,12 +13,12 @@
   - [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
 
 - Webinar
- -Inner Circle Session - need link
+  -Inner Circle Session - need link
 
 - Garage Method Tutorials
- - Watson Conversation Training - need link
- - Watson Discoverty Training - need link
+   - Watson Conversation Training - need link
+   - Watson Discoverty Training - need link
 
 - IBM Cloud Private Bootcamp
-  -Hybrid Integration - need link
+   -Hybrid Integration - need link
 

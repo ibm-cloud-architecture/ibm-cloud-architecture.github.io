@@ -17,7 +17,7 @@
 
 - Garage Method Tutorials
    - Watson Conversation Training - need link
-   - Watson Discovery Training - need link
+   - Watson Discovery Training (https://www.ibm.com/cloud/garage/tutorials/cognitive_discovery/)
 
 - IBM Cloud Private Bootcamp
    - Hybrid Integration - need link

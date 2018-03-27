@@ -20,5 +20,5 @@
    - [Watson Discovery Training](https://www.ibm.com/cloud/garage/tutorials/cognitive_discovery/)
 
 - IBM Cloud Private Bootcamp
-   - Hybrid Integration - need link
+   - [Hybrid Integration](https://github.com/ibm-cloud-architecture/refarch-integration/blob/master/docs/icp/README.md) 
 

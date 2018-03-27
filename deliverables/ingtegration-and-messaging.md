@@ -16,7 +16,7 @@
   - Inner Circle Session - [Hybrid integration presentation](https://ibm.box.com/s/ooyj9ltnqa0cde9t0zkuofwxpzlibj30)
 
 - Garage Method Tutorials
-   - [Watson Conversation Training on garage method](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support)
+   - [Watson Conversation Training](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support)
    - [Watson Discovery Training](https://www.ibm.com/cloud/garage/tutorials/cognitive_discovery/)
 
 - IBM Cloud Private Bootcamp

@@ -13,10 +13,10 @@
   - [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
 
 - Webinar
-  - Inner Circle Session - need link
+  - Inner Circle Session - [Hybrid integration presentation](https://ibm.box.com/s/ooyj9ltnqa0cde9t0zkuofwxpzlibj30)
 
 - Garage Method Tutorials
-   - Watson Conversation Training - need link
+   - [Watson Conversation Training on garage method](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support)
    - [Watson Discovery Training](https://www.ibm.com/cloud/garage/tutorials/cognitive_discovery/)
 
 - IBM Cloud Private Bootcamp

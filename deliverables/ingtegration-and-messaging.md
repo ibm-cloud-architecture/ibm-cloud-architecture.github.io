@@ -13,7 +13,7 @@
   - [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
 
 - Webinar
-  - Inner Circle Session - [Hybrid integration presentation](https://ibm.box.com/s/ooyj9ltnqa0cde9t0zkuofwxpzlibj30)
+  - Inner Circle Session - [Hybrid integration presentation](https://github.com/ibm-cloud-architecture/refarch-integration/blob/master/7976_Hybrid.pdf)
 
 - Garage Method Tutorials
    - [Watson Conversation Training](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support)

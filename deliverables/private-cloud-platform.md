@@ -12,7 +12,7 @@
 
 - Assets: [Backup and Restore IBM Cloud Private environment](https://github.com/ibm-cloud-architecture/icp-backup)
 - Assets: [Deploy and automate the ICP environment on AWS](https://github.ibm.com/CASE/icp-aws-hertz)
-- Assets: [Deploy Hyperledger frabric on IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-privatecloud-blockchain)
+- Assets: [Deploy Hyperledger fabric on IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-privatecloud-blockchain)
 - Assets: [Deploy Highly-Available MongoDB from IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-icp-mongodb)
 - Assets: [Deploy ICP with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy)
 

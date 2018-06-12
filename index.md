@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assets Landing Page - {{ site.description }}
+title: Assets Landing Page
 ---
 
 # IBM Cloud Architecture & Solution Engineering

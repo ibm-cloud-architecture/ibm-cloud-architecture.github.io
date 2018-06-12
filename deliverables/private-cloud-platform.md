@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Private Cloud Platform Assets - {{ site.description }}
+title: Private Cloud Platform Management
 ---
 
 # Solution Engineering Deliverables
 
-## Private Cloud Platform Management
+## {{ page.title }} Private Cloud Platform Management
 
 - Master GitHub Repository: [Deploy and Operate IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-privatecloud)
   - [Install ICP on VMWare with Ubuntu-based Images](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Installing_ICp_on_prem_ubuntu.md)

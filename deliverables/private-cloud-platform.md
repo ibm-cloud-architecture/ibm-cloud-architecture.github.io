@@ -1,3 +1,8 @@
+---
+layout: default
+title: Private Cloud Platform Assets - {{ site.description }}
+---
+
 # Solution Engineering Deliverables
 
 ## Private Cloud Platform Management

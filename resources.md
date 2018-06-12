@@ -1,3 +1,9 @@
+---
+layout: default
+title: IBM Cloud Architecture & Solution Engineering - Additional Resources
+published: false
+---
+
 # Additional Architecture Resources
 
 ### Methodologies

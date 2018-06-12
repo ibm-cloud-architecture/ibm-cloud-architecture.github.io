@@ -1,3 +1,9 @@
+---
+layout: default
+title: IBM Cloud Architecture & Solution Engineering - InterConnect 2017 Sessions
+published: false
+---
+
 # InterConnect 2017 Sessions
 
 ## Expo Hall

@@ -1,6 +1,9 @@
-# Solution Engineering Deliverables
+---
+layout: default
+title:  Hybrid Cloud Integration & Messaging
+---
 
-## Hybrid Cloud Integration & Messaging
+## {{ page.title }}
 
 - Master GitHub Repository: [Hybrid Integration Reference Architecture](https://github.com/ibm-cloud-architecture/refarch-integration)
   - [CASE Portal web app to expose access and user interface for inventory DB](https://github.com/ibm-cloud-architecture/refarch-caseinc-app)
@@ -21,5 +24,3 @@
 
 - IBM Cloud Private Bootcamp
    - [Hybrid Integration](https://github.com/ibm-cloud-architecture/refarch-integration/blob/master/docs/icp/README.md) 
-
-

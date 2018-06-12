@@ -1,6 +1,9 @@
-# Solution Engineering Deliverables
+---
+layout: default
+title: Application Modernization
+---
 
-## Application Modernization
+## {{ page.title }}
 
 - Master GitHub Repository: [Enterprise Application Modernization through Java EE on Cloud](https://github.com/ibm-cloud-architecture/refarch-jee)
   - Phase 1: [Modernize your App](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/phases/phase1.md)

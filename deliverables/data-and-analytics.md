@@ -1,6 +1,9 @@
-# Solution Engineering Deliverables
+---
+layout: default
+title:  Data & Analytics
+---
 
-## Data & Analytics
+## {{ page.title }}
 
 - Master GitHub Repository: [Data Analytics](https://github.com/ibm-cloud-architecture/refarch-analytics)
 
@@ -11,6 +14,3 @@
 
 - Webinar: 
   Putting it all together - [Inner circle Think 2018 - 7977-Develop a Hybrid Cloud Machine Learning Solution with Data Science Experience on IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/7977_v3.pdf)
-
-
-

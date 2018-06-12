@@ -1,6 +1,9 @@
-# Solution Engineering Deliverables
+---
+layout: default
+title: Cloud Native Application Development
+---
 
-## Cloud Native Application Development
+## {{ page.title }}
 
 - Master GitHub Repository: [Run a Cloud Native Microservices Application on a Kubernetes Cluster using MiniKube, IBM Container Service, and IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes)
   - [Making Microservices Resilient in IBM Cloud](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)

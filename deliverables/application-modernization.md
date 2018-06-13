@@ -13,7 +13,7 @@ title: Application Modernization
   - Phase 2: [Mitigation for your app](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/phases/phase2.md)
   - Phase 4: [Refactoring to Microservices](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/phases/phase4.md)
 
-- Monolith to Microservices](https://github.com/ibm-cloud-architecture/refarch-jee-monolith-to-microservices) - Microservices transformation GitHub repository
+- [Monolith to Microservices](https://github.com/ibm-cloud-architecture/refarch-jee-monolith-to-microservices) - Microservices transformation GitHub repository
 
 
 ### How-To Guides

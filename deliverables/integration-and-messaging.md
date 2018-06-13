@@ -1,11 +1,14 @@
 ---
 layout: default
 title:  Hybrid Cloud Integration & Messaging
+color-compute: Brown
 ---
 
 ## {{ page.title }}
 
-- Master GitHub Repository: [Hybrid Integration Reference Architecture](https://github.com/ibm-cloud-architecture/refarch-integration)
+### Code
+
+- [Hybrid Integration Reference Architecture](https://github.com/ibm-cloud-architecture/refarch-integration) - master GitHub repository
   - [CASE Portal web app to expose access and user interface for inventory DB](https://github.com/ibm-cloud-architecture/refarch-caseinc-app)
   - [Data Access Layer to deliver SOAP interface for Inventory management JAXWS/JPA app](https://github.com/ibm-cloud-architecture/refarch-integration-inventory-dal)
   - [DB2 to support scripting and ddl for Inventory DB](https://github.com/ibm-cloud-architecture/refarch-integration-inventory-db2)
@@ -15,12 +18,23 @@ title:  Hybrid Cloud Integration & Messaging
   - [Customer management for analytics micro service in JAXRS on Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
   - [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
 
-- Webinar
-  - Inner Circle Session - [Hybrid integration presentation](https://github.com/ibm-cloud-architecture/refarch-integration/blob/master/7976_Hybrid.pdf)
 
-- Garage Method Tutorials
-   - [Watson Conversation Training](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support)
-   - [Watson Discovery Training](https://www.ibm.com/cloud/garage/tutorials/cognitive_discovery/)
+### Reference architectures
 
-- IBM Cloud Private Bootcamp
-   - [Hybrid Integration](https://github.com/ibm-cloud-architecture/refarch-integration/blob/master/docs/icp/README.md) 
+- [Hybrid integration for solutions that span environments](https://www.ibm.com/cloud/garage/architectures/hybridIntegration)
+- [APIs for simplifying integration to and from the cloud](https://www.ibm.com/cloud/garage/architectures/apiArchitecture)
+
+
+### Tutorials
+
+- [Build an IT support chatbot by using IBM Watson Assistant](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support)
+- [Create and query a data collection in IBM Watson Discovery](https://www.ibm.com/cloud/garage/tutorials/cognitive_discovery/)
+- [Train IBM Watson Discovery to return more relevant results](https://www.ibm.com/cloud/garage/tutorials/cognitive-discovery-advanced)
+- [Automate API lifecycle management by using a DevOps platform](https://www.ibm.com/cloud/garage/tutorials/manage-api-lifecycle)
+- [Tutorial - MQ on IBM Cloud](https://www.ibm.com/cloud/garage/tutorials/ibm-mq-on-cloud/tutorial-mq-on-ibm-cloud)
+
+
+### Webinars
+
+- [Faster, more efficient API deployment using DevOps governance model](https://www.ibm.com/cloud/garage/videos/efficient-api-deployment-with-devops-governance)
+- [Hybrid integration presentation](https://github.com/ibm-cloud-architecture/refarch-integration/blob/master/7976_Hybrid.pdf) - presentation from THINK 2018

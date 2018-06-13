@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cloud Native Application Development
+color-compute: Blue
 ---
 
 ## {{ page.title }}
@@ -13,10 +14,11 @@ title: Cloud Native Application Development
 
 
 ### How-To Guides
-  - [Making Microservices Resilient in IBM Cloud](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
-  - [Running Jenkins inside Kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-devops-kubernetes)
-  - [Cluster to Cluster Microservices Communications](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/master/cluster-to-cluster)
-  - [Microclimate Showcase](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-microclimate) - An end-to-end cloud-native development environment experience, using Blue Compute as the application of choice.
+
+- [Making Microservices Resilient in IBM Cloud](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
+- [Running Jenkins inside Kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-devops-kubernetes)
+- [Cluster to Cluster Microservices Communications](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/master/cluster-to-cluster)
+- [Microclimate Showcase](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-microclimate) - An end-to-end cloud-native development environment experience, using Blue Compute as the application of choice.
 
 
 ### Reference Architectures

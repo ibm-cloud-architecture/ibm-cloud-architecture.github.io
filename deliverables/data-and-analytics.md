@@ -11,7 +11,7 @@ color-compute: Green
 
 - [Data Analytics](https://github.com/ibm-cloud-architecture/refarch-analytics) - master GitHub repository
   - [Deploy Data Science Experience to IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/ICP)
-  - [Deploy Data Science Experience and IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics)
+  - [Cognitive and analytics in hybrid cloud end to end solution](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics)
   - [DB2 Warehouse deployment on IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/db2warehouse)
 
 

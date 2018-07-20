@@ -12,12 +12,17 @@ color-compute: Green
 - [Data Analytics](https://github.com/ibm-cloud-architecture/refarch-analytics) - master GitHub repository
   - [Deploy Data Science Experience to IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/ICP)
   - [Cognitive and analytics in hybrid cloud end-to-end solution](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics)
+  - [Manufacturing Asset Predictive Maintenance end-to-end solution](https://github.com/ibm-cloud-architecture/refarch-asset-analytics)
   - [DB2 Warehouse deployment on IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/db2warehouse)
 
 
 ### How-To Guides
 
--  [Guidance on Install for glusterfs for DB2HA ICP Cluster Setup](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Resiliency/Configure_HA_ICP_cluster.md)
+- [Guidance on Install for glusterfs for DB2HA ICP Cluster Setup](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Resiliency/Configure_HA_ICP_cluster.md)
+- [Deploy Kafka on ICP](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/docs/kafka/readme.md#install-kafka-on-icp)
+- [Deploy IBM Event Streams (Based on Kafka) on ICP](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/docs/kafka/readme.md#install-ibm-event-streams-on-icp)
+- [Deploy Cassandra on ICP](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/blob/master/docs/cassandra/readme.md#deployment-on-icp)
+- 
 
 
 ### Reference Architectures

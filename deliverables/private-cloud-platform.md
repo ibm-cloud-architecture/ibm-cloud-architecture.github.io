@@ -15,8 +15,10 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
   - [Install ICP on VMWare with Ubuntu-based Images](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Installing_ICp_on_prem_ubuntu.md)
   - [Install ICP on VMWare with Redhat-based Images](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/rhel_install/Installing_ICP_on_prem_rhel.md)
 
-- [Deploy IBM Cloud Private with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy) - provides support for IBM Cloud, VMware, Amazon Web Services, and Azure using generic Terraform cloud providers.
+- [Deploy IBM Cloud Private with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy) - a [Terraform module](https://www.terraform.io/intro/getting-started/modules.html) providing installation and configuration support for IBM Cloud Private.  Can be leveraged in conjunction with Terraform providers to deploy ICP on IBM Cloud, VMware, and Amazon Web Services.
 - [Terraform Highly Available IBM Cloud Private Deployment on AWS](https://github.com/ibm-cloud-architecture/terraform-icp-aws) - provides highly-available, highly-tuned deployment of IBM Cloud Private on Amazon Web Services, utilzing the [AWS Terraform provider](https://www.terraform.io/docs/providers/aws/index.html).
+- [Terraform Highly Available IBM Cloud Private Deployment on IBM Cloud](https://github.com/ibm-cloud-architecture/terraform-icp-ibmcloud) - provides highly-available, highly-tuned deployment of IBM Cloud Private on IBM Cloud, utilzing the [IBM Cloud Terraform provider](https://ibm-cloud.github.io/tf-ibm-docs/index.html).
+- [Terraform Highly Available IBM Cloud Private Deployment on VMware](https://github.com/ibm-cloud-architecture/terraform-icp-vmware) - provides highly-available, highly-tuned deployment of IBM Cloud Private on VMware infrastructure, utilzing the [VMware vSphere Terraform provider](https://www.terraform.io/docs/providers/vsphere/index.html).
 
 
 ### How-To Guides

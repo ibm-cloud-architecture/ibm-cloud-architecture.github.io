@@ -2,10 +2,12 @@
 layout: default
 title: Cloud Native Application Development
 color-compute: Blue
+last_updated: 2018-08-10
 ---
 
 ## {{ page.title }}
 
+Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Code
 

@@ -2,10 +2,12 @@
 layout: default
 title: Private Cloud Platform Management
 color-compute: Rainbow
+last_updated: 2018-08-10
 ---
 
 ## {{ page.title }}
 
+Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Code
 

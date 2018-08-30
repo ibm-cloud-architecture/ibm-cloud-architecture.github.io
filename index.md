@@ -13,7 +13,7 @@ Reference implementation & resources for migrating existing Java EE applications
 
 [Go>>](/deliverables/application-modernization.html)
 
-### Cloud Native Applications
+### Cloud Native &amp; Microservices Development
 
 Reference implementation & resources for running a Cloud Native Mobile and Web Application using a Microservices architecture on a Kubernetes cluster.
 
@@ -31,13 +31,13 @@ Reference implementation for building and running analytics application deployed
 
 [Go>>](/deliverables/data-and-analytics.html)
 
-### Hybrid Integration & Messaging
+### Hybrid Cloud Integration & Development
 
 Reference architecture material describing an approach to connect components which are split across cloud and on-premises environments, or across public and private clouds -- even across different cloud providers.
 
 [Go>>](/deliverables/integration-and-messaging.html)
 
-### Private Cloud Platform
+### IBM Cloud Private Platform
 
 Prescriptive guidance on how to efficiently deploy and operate the IBM Cloud Private platform in the Enterprise.
 

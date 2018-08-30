@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Private Cloud Platform Management
+title: IBM Cloud Private Platform
 color-compute: Rainbow
-last_updated: 2018-08-10
+last_updated: 2018-08-30
 ---
 
 ## {{ page.title }}

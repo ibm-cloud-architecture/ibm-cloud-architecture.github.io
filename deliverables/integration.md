@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  Hybrid Cloud Integration & Messaging
+title:  Hybrid Cloud Integration & Development
 color-compute: Brown
-last_updated: 2018-08-10
+last_updated: 2018-08-30
 ---
 
 ## {{ page.title }}
@@ -18,8 +18,13 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
   - [APIC Connect Content for the Inventory API definition and management](https://github.com/ibm-cloud-architecture/refarch-integration-api)
   - [IBM Integration Bus Inventory gateway flow Gateway and orchestration flow](https://github.com/ibm-cloud-architecture/refarch-integration-esb)
   - [Secure Gateway](https://github.com/ibm-cloud-architecture/refarch-integration-utilities) 
-  - [Customer management for analytics micro service in JAXRS on Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
-  - [Operational Decision Management based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
+  - [Customer management for analytics microservice in JAX-RS on Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
+  - [Operational Decision Management-based product recommendation in the context of user moving in different location](https://github.com/ibm-cloud-architecture/refarch-cognitive-prod-recommendations)
+
+
+### How-To Guides
+
+- [Microclimate Showcase](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-microclimate) - An end-to-end cloud-native development environment experience, using Blue Compute as the application of choice.
 
 
 ### Reference architectures

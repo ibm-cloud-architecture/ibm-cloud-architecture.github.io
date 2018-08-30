@@ -12,6 +12,8 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 ### Code
 
 - [Run a Cloud Native Microservices Application on a Kubernetes Cluster](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes) - master GitHub repository with support for IBM Cloud Private, IBM Cloud Kubernetes Service, and Minikube
+  - [MicroProfile Reference Application](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/microprofile)
+  - [Spring Boot Reference Application](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring)
 - [Run a Spring Cloud Application on a Kubernetes Cluster](https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring)
 
 

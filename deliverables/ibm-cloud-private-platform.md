@@ -2,7 +2,7 @@
 layout: default
 title: IBM Cloud Private Platform
 color-compute: Rainbow
-last_updated: 2018-08-30
+last_updated: 2018-09-17
 ---
 
 ## {{ page.title }}

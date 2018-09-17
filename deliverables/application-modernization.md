@@ -2,7 +2,7 @@
 layout: default
 title: Application Modernization
 color-compute: Purple
-last_updated: 2018-08-10
+last_updated: 2018-09-17
 ---
 
 ## {{ page.title }}
@@ -21,6 +21,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### How-To Guides
 
+- [Application Modernization - Resiliency Showcase](https://github.com/ibm-cloud-architecture/stocktrader-resiliency) - Using the StockTrader reference application, this showcase documents the journey of bringing existing middleware applications to a Kubernetes environment, while maximizing the resiliency at both the application and platform levels.
 - [Modernizing DevOps for WebSphere with Jenkins and UCD](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/aspects/devops.md)
 - [Security Considerations for WebSphere as a Service implementations](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/aspects/security.md)
 

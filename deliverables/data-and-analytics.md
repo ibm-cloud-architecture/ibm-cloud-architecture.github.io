@@ -2,7 +2,7 @@
 layout: default
 title:  Data & Analytics
 color-compute: Green
-last_updated: 2018-08-10
+last_updated: 2018-09-17
 ---
 
 ## {{ page.title }}
@@ -18,14 +18,15 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 ### Code 
 - [Customer Churn Analysis Jupyter notebook](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/ml/CustomerChurnAnalysisDSXICP.md) and [Python notebook codes](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/src/dsx)
 - [Churn demo webapp with a chatbot user interface](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/tree/master/src/client)
-- [BFF microservice in nodejs to support watson conversation, tone analysis, customer microservice proxy..](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/tree/master/src/server)
+- [BFF microservice in nodejs to support Watson Conversation, Tone Analysis, Customer microservice proxy..](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/tree/master/src/server)
 - [Watson Conversation workspace for the demonstration](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/tree/master/src/wcs)
 - [Customer management microservice in JAXRS and Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
 - [Kafka consumer and Cassandra injector to deploy to ICP](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-consumer)
 - [Smart Electric Pump Simulator](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-event-producer)
 - [Real time dashboard with Angular and websocket UI](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-dashboard-ui)
 - [Real time dashboard BFF with websocket server and kafka consumer](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-dashboard-bff)
-- [Asset manager microservice as access layer on top of Cassandra using Springboot](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-mgr-ms)
+<!-- - [Asset manager microservice as access layer on top of Cassandra using Springboot](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-mgr-ms) -->
+- [Java Microservice integration with Cassandra](https://github.com/ibm-cloud-architecture/refarch-asset-manager-microservice)
 
 ### How-To Guides
 - [Deploy Data Science Experience to IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/ICP)
@@ -41,7 +42,8 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [How to persist a Watson Assistant chatbot transcript](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/persist/chattranscripts.md)
 - [How to implement a support conversation with tone analysis, and customer context](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/wcs)
 - [How to integrate Watson tone analyzer in a chatbot](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/w-tone-analyzer.md)
-- [How to develop a JAXRS microservice and deploy to ICP](https://github.com/ibm-cloud-architecture/refarch-integration-services))
+- [How to develop a JAXRS microservice and deploy to ICP](https://github.com/ibm-cloud-architecture/refarch-integration-services)
+- [Monitoring Kafka with Prometheus and Grafana](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/docs/kafka/monitoring.md)
 
 
 ### Reference Architectures

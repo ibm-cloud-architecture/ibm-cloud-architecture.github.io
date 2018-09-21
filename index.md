@@ -35,13 +35,13 @@ Reference implementation for building and running analytics application deployed
 
 Reference architecture material describing an approach to connect components which are split across cloud and on-premises environments, or across public and private clouds -- even across different cloud providers.
 
-[Go>>](/deliverables/integration-and-messaging.html)
+[Go>>](/deliverables/integration.html)
 
 ### IBM Cloud Private Platform
 
 Prescriptive guidance on how to efficiently deploy and operate the IBM Cloud Private platform in the Enterprise.
 
-[Go>>](/deliverables/private-cloud-platform.html)
+[Go>>](/deliverables/ibm-cloud-private-platform.html)
 
 
 <!--

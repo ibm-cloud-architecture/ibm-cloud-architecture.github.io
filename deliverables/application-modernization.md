@@ -10,8 +10,7 @@ last_updated: 2018-09-17
 Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Code
-
-- [Enterprise Application Modernization through Java EE on Cloud](https://github.com/ibm-cloud-architecture/refarch-jee) - master GitHub repository
+  - <a href="https://github.com/ibm-cloud-architecture/refarch-jee" onclick="trackOutboundLink('https://github.com/ibm-cloud-architecture/refarch-jee'); return false;">Enterprise Application Modernization through Java EE on Cloud</a> - master GitHub repository
   - Phase 1: [Modernize your App](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/phases/phase1.md)
   - Phase 2: [Mitigation for your app](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/phases/phase2.md)
   - Phase 4: [Refactoring to Microservices](https://github.com/ibm-cloud-architecture/refarch-jee/blob/master/phases/phase4.md)

@@ -2,12 +2,18 @@
 layout: default
 title: Cloud Native Application Development
 color-compute: Blue
-last_updated: 2018-09-24
+last_updated: 2018-10-02
 ---
 
 ## {{ page.title }}
 
 Updated: {{ page.last_updated | date: "%B %d, %Y" }}
+
+### Blogs
+
+- Taking BlueCompute from Spring to MicroProfile blog series:
+  - [Migrating Java Microservices from Spring Boot to MicroProfile](https://www.ibm.com/blogs/bluemix/2018/09/migrate-java-microservices-from-spring-to-microprofile-p1/)
+  - [Java Microservices with MicroProfile – RESTful APIs and Dependency Injection](https://www.ibm.com/blogs/bluemix/2018/10/migrate-java-microservices-from-spring-to-microprofile-p2/)
 
 ### Code
 

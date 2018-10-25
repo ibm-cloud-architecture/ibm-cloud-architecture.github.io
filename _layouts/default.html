@@ -30,7 +30,21 @@ var trackOutboundLink = function(url) {
    });
 }
 </script>
-
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).click(function(event){ 
+      if(event.target.href) { 
+        //TODO Normalize the HREF, remove local site home? 
+        var href=event.target.href;
+        ga('send', 'event', 'outbound', 'click', href, 1);
+      } else { 
+        //console.log (event);
+      }
+    });
+  </script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -42,7 +56,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!--<p class="view"><a href="/deliverables/application-modernization.html" onclick="trackOutboundLink('/deliverables/application-modernization.html'); return false;">Application Modernization</a></p>-->
         <p class="view"><a href="/deliverables/application-modernization.html">Application Modernization</a></p>
         <p class="view"><a href="/deliverables/cloud-native.html">Cloud Native &amp; Microservices Development</a></p>
         <p class="view"><a href="/deliverables/csmo.html">Cloud Service Management &amp; Operations</a></p>

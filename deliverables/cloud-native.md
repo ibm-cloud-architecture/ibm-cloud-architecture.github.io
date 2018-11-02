@@ -29,6 +29,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [Running Jenkins inside Kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-devops-kubernetes)
 - [Cluster to Cluster Microservices Communications](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring/cluster-to-cluster)
 - [Microclimate Showcase](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-microclimate) - An end-to-end cloud-native development environment experience, using Blue Compute as the application of choice.
+- [Passing configuration at runtime to SpringBoot applications running on WebSphere Liberty](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring/docs/spring-on-liberty)
 
 
 ### Reference Architectures

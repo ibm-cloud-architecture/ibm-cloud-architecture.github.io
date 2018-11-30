@@ -22,6 +22,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [Watson Conversation workspace for the demonstration](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/tree/master/src/wcs)
 - [Customer management microservice in JAXRS and Liberty](https://github.com/ibm-cloud-architecture/refarch-integration-services)
 - [Kafka consumer and Cassandra injector to deploy to ICP](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-consumer)
+- [Serverless Kafka consumer and Cassandra injector to deploy to ICP](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-consumer-function)
 - [Smart Electric Pump Simulator](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-event-producer)
 - [Real time dashboard with Angular and websocket UI](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-dashboard-ui)
 - [Real time dashboard BFF with websocket server and kafka consumer](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/tree/master/asset-dashboard-bff)

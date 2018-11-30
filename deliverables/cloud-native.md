@@ -14,6 +14,9 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - Taking BlueCompute from Spring to MicroProfile blog series:
   - [Migrating Java Microservices from Spring Boot to MicroProfile](https://www.ibm.com/blogs/bluemix/2018/09/migrate-java-microservices-from-spring-to-microprofile-p1/)
   - [Java Microservices with MicroProfile – RESTful APIs and Dependency Injection](https://www.ibm.com/blogs/bluemix/2018/10/migrate-java-microservices-from-spring-to-microprofile-p2/)
+  - [Rest Client and JSON-B](https://www.ibm.com/blogs/bluemix/2018/10/migrate-java-microservices-from-spring-to-microprofile-p3/)
+  - [Scaling Your Java MicroProfile-Based Microservices App – Externalized configuration](https://www.ibm.com/blogs/bluemix/2018/10/migrate-java-microservices-from-spring-to-microprofile-p4a/)
+  - [Scaling Your Java MicroProfile-Based Microservices App – Authentication and Authorization](https://www.ibm.com/blogs/bluemix/2018/11/migrate-java-microservices-from-spring-to-microprofile-p4b/)
 
 ### Code
 

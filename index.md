@@ -25,6 +25,11 @@ Artifacts created by the IBM Cloud Service Management & Operations (CSMO) team t
 
 [Go>>](/deliverables/csmo.html)
 
+### Event Driven Architecture
+Support new programming model for IBM Cloud architecture center, with new methodology content too related to 'event storming' method, and a reference implementation using the event-driven cloud native design patterns.
+
+[Go>>](/deliverables/eda.html)
+
 ### Data & Analytics
 
 Reference implementation for building and running analytics application deployed in a hybrid cloud environment, focusing on offering tools and practices for Data Scientists & IT architects alike.

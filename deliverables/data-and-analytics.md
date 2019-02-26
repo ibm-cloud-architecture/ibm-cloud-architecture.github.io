@@ -33,10 +33,9 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [Deploy Data Science Experience to IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/ICP)
 - [DB2 Warehouse deployment on IBM Cloud Private](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/db2warehouse)
 - [Guidance on Install for glusterfs for DB2HA ICP Cluster Setup](https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/Resiliency/Configure_HA_ICP_cluster.md)
-- [Deploy Kafka on ICP](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/docs/kafka/readme.md#install-kafka-on-icp)
-- [Deploy IBM Event Streams (Based on Kafka) on ICP](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/docs/kafka/readme.md#install-ibm-event-streams-on-icp)
+- [Deploy IBM Event Streams (Based on Kafka) on ICP](https://github.com/ibm-cloud-architecture/refarch-eda/blob/master/docs/deployments/eventstreams/README.md)
 - [Deploy Cassandra on ICP](https://github.com/ibm-cloud-architecture/refarch-asset-analytics/blob/master/docs/cassandra/readme.md#deployment-on-icp)
-- [Apache Kafka deployment on Kubernetes for resiliency](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/kafka)
+- [Apache Kafka deployment on Kubernetes for resiliency](https://ibm-cloud-architecture.github.io/refarch-eda/deployments/kafka/)
 - [Use Case: Short-term Data Analysis](https://github.com/ibm-cloud-architecture/refarch-analytics/tree/master/docs/taxi_scenario)
 - [Develop Customer API with API Connect](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/apim/README.md)
 - [Customer Data Ingestion](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/apim/README.md)
@@ -44,7 +43,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [How to implement a support conversation with tone analysis, and customer context](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/wcs)
 - [How to integrate Watson tone analyzer in a chatbot](https://github.com/ibm-cloud-architecture/refarch-cognitive-analytics/blob/master/docs/w-tone-analyzer.md)
 - [How to develop a JAXRS microservice and deploy to ICP](https://github.com/ibm-cloud-architecture/refarch-integration-services)
-- [Monitoring Kafka with Prometheus and Grafana](https://github.com/ibm-cloud-architecture/refarch-analytics/blob/master/docs/kafka/monitoring.md)
+- [Monitoring Kafka with Prometheus and Grafana](https://github.com/ibm-cloud-architecture/refarch-eda/blob/master/docs/kafka/monitoring.md)
 
 
 ### Reference Architectures

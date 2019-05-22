@@ -11,42 +11,42 @@ The IBM CASE organization provides prescriptive guidance, reference solution arc
 
 Reference implementation & resources for migrating existing Java EE applications from on-premise to cloud-based deployments, as well as migration to a microservices-based architecture.
 
-[Go>>](/deliverables/application-modernization.html)
+[Go>>](deliverables/application-modernization.html)
 
 ### Cloud Native &amp; Microservices Development
 
 Reference implementation & resources for running a Cloud Native Mobile and Web Application using a Microservices architecture on a Kubernetes cluster.
 
-[Go>>](/deliverables/cloud-native.html)
+[Go>>](deliverables/cloud-native.html)
 
 ### Cloud Service Management & Operations
 
 Artifacts created by the IBM Cloud Service Management & Operations (CSMO) team to assist you with performance management of your IBM Cloud Private deployment.
 
-[Go>>](/deliverables/csmo.html)
+[Go>>](deliverables/csmo.html)
 
 ### Event Driven Architecture
 Support new programming model for IBM Cloud architecture center, with new methodology content too related to 'event storming' method, and a reference implementation using the event-driven cloud native design patterns.
 
-[Go>>](/deliverables/eda.html)
+[Go>>](deliverables/eda.html)
 
 ### Data & Analytics
 
 Reference implementation for building and running analytics application deployed in a hybrid cloud environment, focusing on offering tools and practices for Data Scientists & IT architects alike.
 
-[Go>>](/deliverables/data-and-analytics.html)
+[Go>>](deliverables/data-and-analytics.html)
 
 ### Hybrid Cloud Integration & Development
 
 Reference architecture material describing an approach to connect components which are split across cloud and on-premises environments, or across public and private clouds -- even across different cloud providers.
 
-[Go>>](/deliverables/integration.html)
+[Go>>](deliverables/integration.html)
 
 ### IBM Cloud Private Platform
 
 Prescriptive guidance on how to efficiently deploy and operate the IBM Cloud Private platform in the Enterprise.
 
-[Go>>](/deliverables/ibm-cloud-private-platform.html)
+[Go>>](deliverables/ibm-cloud-private-platform.html)
 
 
 <!--

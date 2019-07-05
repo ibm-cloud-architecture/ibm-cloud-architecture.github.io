@@ -3,9 +3,15 @@ layout: default
 title: Assets Landing Page
 ---
 
-# IBM Cloud Architecture & Solution Engineering
+# IBM Garage and Solution Engineering
 
-The IBM CASE organization provides prescriptive guidance, reference solution architectures and best practices to help clients build highly scalable and reliable applications using IBM Cloud.
+The IBM Garage and Solution Engineering organization provides prescriptive guidance, reference solution architectures and best practices to help clients build highly scalable and reliable applications using IBM Hybrid Cloud.
+
+### Multicloud Solution
+
+Explore architectures and assets that provide Multicloud solutions. Either looking to automate and manage your multicloud and multivendor infrastructure, or building private cloud or use public cloud to solve real-world problems, you'll find our Point of View in the multicloud era. 
+
+[Go>>](deliverables/multicloud-solution.html)
 
 ### Application Modernization
 

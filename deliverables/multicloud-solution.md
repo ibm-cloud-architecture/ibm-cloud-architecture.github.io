@@ -14,19 +14,18 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [Deploying IBM Cloud Private on Amazon Web Services (AWS)](https://www.ibm.com/cloud/blog/ibm-cloud-private-on-aws-p1)
 - [The IBM Multicloud Approach by Example](https://www.ibm.com/cloud/blog/ibm-multi-cloud-approach-by-example)
 - [Run IBM Cloud Private on Amazon Web Services (AWS) cloud platform](https://medium.com/ibm-cloud/run-ibm-cloud-private-on-amazon-web-services-aws-cloud-platform-c2cec1020ba8)
-- [Kubernetes and IBM Cloud: How to deploy, manage, and secure your container-based workloads - 5 Parts series](https://www.ibm.com/cloud/blog/kubernetes-and-bluemix-container-based-workloads-part1)
-  - [Kubernetes and IBM Bluemix: How to deploy, manage, and secure your container-based workloads – Part 2](https://www.ibm.com/blogs/cloud-archive/2017/05/kubernetes-and-bluemix-container-based-workloads-part2/)
-  - [Kubernetes and IBM Bluemix: How to deploy, manage, and secure your container-based workloads – Part 3](https://www.ibm.com/cloud/blog/kubernetes-and-bluemix-container-based-workloads-part3)
-  - [Kubernetes and IBM Bluemix: How to deploy, manage, and secure your container-based workloads – Part 4](https://www.ibm.com/blogs/cloud-archive/2017/07/kubernetes-and-bluemix-container-based-workloads-part4/)
-  - [Kubernetes and IBM Bluemix: How to deploy, manage, and secure your container-based workloads – Part 5](https://www.ibm.com/blogs/cloud-archive/2017/07/kubernetes-and-bluemix-container-based-workloads-part5/)
+- - [Kubernetes and IBM Cloud: How to deploy, manage, and secure your container-based workloads - 5 Parts series](https://www.ibm.com/cloud/blog/kubernetes-and-bluemix-container-based-workloads-part1)
 
 
 ### Code
 
-- [Run a Cloud Native Microservices Application on a Kubernetes Cluster](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes) - master GitHub repository with support for IBM Cloud Private, IBM Cloud Kubernetes Service, and Minikube
-  - [MicroProfile Reference Application](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/microprofile)
-  - [Spring Boot Reference Application](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring)
-- [Run a Spring Cloud Application on a Kubernetes Cluster](https://github.com/ibm-cloud-architecture/refarch-cloudnative-spring)
+- [Cloud Foundry to Kubernetes migration tools](https://github.com/ibm-cloud-architecture/cf-transformation) - Analyze an existing Cloud Foundry application to give recommendation on migration to Kubernetes platforms.
+- [Garage Catalyst for Red Hat OpenShift](https://github.ibm.com/garage-catalyst/iteration-zero-openshift) - Scripts and tools to setup OpenShift Iteration Zero development tools
+- [Deploy IBM Container Platform with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy) - a [Terraform module](https://www.terraform.io/intro/getting-started/modules.html) providing installation and configuration support for IBM Cloud Private.  Can be leveraged in conjunction with Terraform providers to deploy ICP on IBM Cloud, VMware, and Amazon Web Services.
+  - [Terraform Highly Available IBM Cloud Private Deployment on AWS](https://github.com/ibm-cloud-architecture/terraform-icp-aws)
+  - [Terraform Highly Available IBM Cloud Private Deployment on IBM Cloud](https://github.com/ibm-cloud-architecture/terraform-icp-ibmcloud)
+  - [Terraform Highly Available IBM Cloud Private Deployment on VMware](https://github.com/ibm-cloud-architecture/terraform-icp-vmware)
+  - [Terraform Sandbox IBM Cloud Private Community Edition Deployment on Azure](https://github.com/ibm-cloud-architecture/terraform-icp-azure)
 
 
 ### How-To Guides

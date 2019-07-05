@@ -35,12 +35,12 @@ var trackOutboundLink = function(url) {
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
   <script>
-    $(document).click(function(event){ 
-      if(event.target.href) { 
-        //TODO Normalize the HREF, remove local site home? 
+    $(document).click(function(event){
+      if(event.target.href) {
+        //TODO Normalize the HREF, remove local site home?
         var href=event.target.href;
         ga('send', 'event', 'outbound', 'click', href, 1);
-      } else { 
+      } else {
         //console.log (event);
       }
     });
@@ -56,12 +56,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <p class="view"><a href={{ "/deliverables/multicloud-solution.html" | relative_url }}>Multicloud Solution</a></p>
         <p class="view"><a href={{ "/deliverables/application-modernization.html" | relative_url }}>Application Modernization</a></p>
         <p class="view"><a href={{ "/deliverables/cloud-native.html" | relative_url }}>Cloud Native &amp; Microservices Development</a></p>
         <p class="view"><a href={{ "/deliverables/csmo.html" | relative_url }} >Cloud Service Management &amp; Operations</a></p>
         <p class="view"><a href={{ "/deliverables/data-and-analytics.html" | relative_url }}>Data &amp; Analytics</a></p>
         <p class="view"><a href={{ "/deliverables/integration.html" | relative_url }} >Integration &amp; Development</a></p>
-        <p class="view"><a href={{ "/deliverables/ibm-cloud-private-platform.html" | relative_url }} >IBM Cloud Private Platform</a></p>
+        <p class="view"><a href={{ "/deliverables/ibm-cloud-private-platform.html" | relative_url }} >IBM Container Platform</a></p>
 
           <!--<li><a href="resources.html">Additional Resources</a></li>-->
           <!--<li><a href="/deliverables/csmo.html">Cloud Service Management</a></li>-->

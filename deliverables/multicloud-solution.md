@@ -21,7 +21,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Cloud Foundry to Kubernetes migration tools](https://github.com/ibm-cloud-architecture/cf-transformation) - Analyze an existing Cloud Foundry application to give recommendation on migration to Kubernetes platforms.
 - [Garage Catalyst for Red Hat OpenShift](https://github.ibm.com/garage-catalyst/iteration-zero-openshift) - Scripts and tools to setup OpenShift Iteration Zero development tools
-- [Deploy IBM Container Platform with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy) - a [Terraform module](https://www.terraform.io/intro/getting-started/modules.html) providing installation and configuration support for IBM Cloud Private.  Can be leveraged in conjunction with Terraform providers to deploy ICP on IBM Cloud, VMware, and Amazon Web Services.
+- [Deploy IBM Container Platform with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy) - a [Terraform module](https://www.terraform.io/intro/getting-started/modules.html) providing ICP kubernetes installation and configuration automation for multicloud providers.
   - [Terraform Highly Available IBM Cloud Private Deployment on AWS](https://github.com/ibm-cloud-architecture/terraform-icp-aws)
   - [Terraform Highly Available IBM Cloud Private Deployment on IBM Cloud](https://github.com/ibm-cloud-architecture/terraform-icp-ibmcloud)
   - [Terraform Highly Available IBM Cloud Private Deployment on VMware](https://github.com/ibm-cloud-architecture/terraform-icp-vmware)
@@ -30,10 +30,10 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### How-To Guides
 
-- [Making Microservices Resilient in IBM Cloud](https://github.com/ibm-cloud-architecture/refarch-cloudnative-resiliency/tree/master)
-- [Running Jenkins inside Kubernetes](https://github.com/ibm-cloud-architecture/refarch-cloudnative-devops-kubernetes)
-- [Cluster to Cluster Microservices Communications](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring/cluster-to-cluster)
-- [Microclimate Showcase](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-microclimate) - An end-to-end cloud-native development environment experience, using Blue Compute as the application of choice.
+- [Cookbook - Guide for managing kubernetes clusters with IBM Multicloud Manager](https://ibm-cloud-architecture.github.io/kubernetes-multicloud-management/)
+- [Multicloud management reference architecture](https://www.ibm.com/cloud/garage/architectures/multicloudManagementArchitecture/overview)
+- [Deploy applications across multiple clusters by using IBM Multicloud Manager](https://www.ibm.com/cloud/garage/architectures/multicloudManagementArchitecture/multicloud-manager-with-devops)
+- [Gain the added value of IBM in your Red Hat OpenShift environment](https://www.ibm.com/cloud/garage/architectures/ibm-cloud-private-red-hat-openshift)
 - [Passing configuration at runtime to SpringBoot applications running on WebSphere Liberty](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring/docs/spring-on-liberty)
 
 

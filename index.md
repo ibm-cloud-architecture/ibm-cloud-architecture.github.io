@@ -9,7 +9,7 @@ The IBM Garage and Solution Engineering organization provides prescriptive guida
 
 ### Multicloud Solution
 
-Explore architectures and assets that provide Multicloud solutions. Either looking to automate and manage your multicloud and multivendor infrastructure, or building private cloud or use public cloud to solve real-world problems, you'll find our Point of View in the multicloud era. 
+Explore architectures and assets that provide Multicloud solutions. Either looking to automate and manage your multicloud and multivendor infrastructure, or building private cloud or use public cloud to solve real-world problems, you'll find our Point of View in the multicloud era.
 
 [Go>>](deliverables/multicloud-solution.html)
 
@@ -24,6 +24,12 @@ Reference implementation & resources for migrating existing Java EE applications
 Reference implementation & resources for running a Cloud Native Mobile and Web Application using a Microservices architecture on a Kubernetes cluster.
 
 [Go>>](deliverables/cloud-native.html)
+
+### DevOps
+
+Increasing velocity and quality in application delivery, by addressing impedance with people, process, and tools.
+
+[Go>>](deliverables/devops.html)
 
 ### Cloud Service Management & Operations
 

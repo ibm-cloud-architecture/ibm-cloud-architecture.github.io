@@ -20,7 +20,6 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 ### Code
 
 - [Cloud Foundry to Kubernetes migration tools](https://github.com/ibm-cloud-architecture/cf-transformation) - Analyze an existing Cloud Foundry application to give recommendation on migration to Kubernetes platforms.
-- [Garage Catalyst for Red Hat OpenShift](https://github.ibm.com/garage-catalyst/iteration-zero-openshift) - Scripts and tools to setup OpenShift Iteration Zero development tools
 - [Deploy IBM Container Platform with Terraform](https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy) - a [Terraform module](https://www.terraform.io/intro/getting-started/modules.html) providing ICP kubernetes installation and configuration automation for multicloud providers.
   - [Terraform Highly Available IBM Cloud Private Deployment on AWS](https://github.com/ibm-cloud-architecture/terraform-icp-aws)
   - [Terraform Highly Available IBM Cloud Private Deployment on IBM Cloud](https://github.com/ibm-cloud-architecture/terraform-icp-ibmcloud)

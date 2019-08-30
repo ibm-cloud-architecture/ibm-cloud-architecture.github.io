@@ -52,7 +52,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [Set up a Jenkins pipeline to continuously integrate and deliver Kubernetes deployments to an IBM Cloud Private cluster](https://www.ibm.com/cloud/garage/tutorials/cloud-private-jenkins-pipeline)
 - [Continuously integrate and deliver on IBM Cloud Private: Use Jenkins in a cluster or your Jenkins environment](https://www.ibm.com/cloud/garage/dte/tutorial/set-jenkins-pipeline-continuously-integrate-and-deliver-kubernetes-deployments-ibm-cloud)
 - [Configure CORS using Istio](https://github.com/ibm-cloud-architecture/tutorial-istio-cors)
-- [Implement Custom Envoy Lua Filters using Istio ](https://github.com/ibm-cloud-architecture/tutorial-istio-envoy-lua-filters)
+- [Implement Custom Envoy Lua Filters using Istio](https://github.com/ibm-cloud-architecture/tutorial-istio-envoy-lua-filters)
 
 
 

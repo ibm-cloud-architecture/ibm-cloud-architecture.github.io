@@ -2,7 +2,7 @@
 layout: default
 title: Cloud Native Application Development
 color-compute: Blue
-last_updated: 2019-08-30
+last_updated: 2019-10-18
 ---
 
 ## {{ page.title }}
@@ -11,6 +11,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Learning Journeys
 - [Learning Cloud Native 101](https://ibm-cloud-architecture.github.io/learning-cloudnative-101)
+- [Learning Kabanero Enterprise 101](https://ibm-cloud-architecture.github.io/Learning-Kabanero-101)
 
 ### Blogs
 

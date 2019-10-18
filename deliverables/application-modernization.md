@@ -2,7 +2,7 @@
 layout: default
 title: Application Modernization
 color-compute: Purple
-last_updated: 2019-10-16
+last_updated: 2019-10-18
 ---
 
 ## {{ page.title }}
@@ -33,7 +33,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Modernize your application](https://www.ibm.com/cloud/garage/architectures/application-modernization)
 
-- [Reference Architecture for Aopplication Modernizatuon with IBM Cloud Pak for Applications](https://www.ibm.com/cloud/garage/architectures/application-modernization/reference-architecture)
+- [Reference Architecture for Application Modernization with IBM Cloud Pak for Applications](https://www.ibm.com/cloud/garage/architectures/application-modernization/reference-architecture)
 
 - [Application Modernization Field Guide](https://www.ibm.com/cloud/garage/content/field-guide/app-modernization-field-guide)
 

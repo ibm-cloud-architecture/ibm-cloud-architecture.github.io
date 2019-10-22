@@ -1,0 +1,654 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Session state management considerations - Application Modernization</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#session-state-management-considerations" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Application Modernization" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Application Modernization
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Session state management considerations
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/ibm-cloud-architecture/cloudpak-for-applications/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    ibm-cloud-architecture/cloudpak-for-applications
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Application Modernization" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Application Modernization
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/ibm-cloud-architecture/cloudpak-for-applications/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    ibm-cloud-architecture/cloudpak-for-applications
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Runtime modernization" class="md-nav__link">
+      Runtime modernization
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../spring/" title="Spring modernization" class="md-nav__link">
+      Spring modernization
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../was90/" title="Operational modernization" class="md-nav__link">
+      Operational modernization
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#session-affinity" class="md-nav__link">
+    Session affinity
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploying-with-session-affinity" class="md-nav__link">
+    Deploying with session affinity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-replication-using-caching-mechanisms" class="md-nav__link">
+    Session replication using caching mechanisms
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepare-dockerfile-with-caching-configuration" class="md-nav__link">
+    Prepare DockerFile with caching configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-hazelcast-in-openshift" class="md-nav__link">
+    Deploy Hazelcast in OpenShift
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploy-hazelcast-cluster" class="md-nav__link">
+    Deploy Hazelcast cluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-openliberty-configured-for-hazelcast" class="md-nav__link">
+    Deploy OpenLiberty configured for Hazelcast
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-persistence-using-database" class="md-nav__link">
+    Session persistence using database
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#liberty-configuration" class="md-nav__link">
+    Liberty configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifying-the-dockerfile" class="md-nav__link">
+    Modifying the Dockerfile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-to-openshift" class="md-nav__link">
+    Deploying to OpenShift
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ibm-cloud-architecture/cloudpak-for-applications/edit/master/docs/liberty/liberty-sessions.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="session-state-management-considerations">Session state management considerations</h1>
+<p>One of the <a href="https://12factor.net/">12 factor</a> principles is that applications and services should be stateless. Many existing monolith applications rely heavily on HTTP sessions. When you are modernizing your application it is a good practice to rearchitect them to be stateless, but some times it is not an easy task and you need to postpone it for a while.</p>
+<p>There are following methods that you can use in container world to handle session state, depending on your requirements:
+- session affinity
+- session replication using caching mechanisms
+- session persistence using database</p>
+<h2 id="session-affinity">Session affinity</h2>
+<p>Session affinity is the simplest mechanism for maintaining session state. Using this mechanism, requests from the same session will be routed to the same POD. Selecting this solution, you have to be aware that PODs are not like on-premise servers, they may be restarted much often, in many circumstances. So this solution might be applicable to applications that need relatively short lived sessions, and can tolerate loosing session data.</p>
+<h3 id="deploying-with-session-affinity">Deploying with session affinity</h3>
+<p>Session affinity on OpenShift utilizes Route configuration. You don't have to make any changes in your application code or during building application container, all is done on deployment time.</p>
+<p>In this example, a simple application has been deployed to WebSphere Liberty that displays the contents of the <em>session</em> and allows updates to be made to a <em>counter</em> that is stored in the session as well as displaying the name of the <em>pod</em> that services the request. There are multiple instances of the application pod running:</p>
+<div class="codehilite"><pre><span></span><span class="n">oc</span> <span class="k">get</span> <span class="n">pods</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">sample</span>
+<span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">bzpd7</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">10</span><span class="n">d</span>
+<span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">dnpsg</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">10</span><span class="n">d</span>
+<span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">g5c8k</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">21</span><span class="n">d</span>
+</pre></div>
+
+
+<p>On the first request, the output is as shown below with the name of the pod an empty session. Since this is first request, currently there is no data in the session. You can also see name of the pod that runs the application.</p>
+<p><img alt="app1" src="../images/sessions-run/oc-app1.jpg" /></p>
+<p>After a few requests to the app, using the link or reloading the page, the the counter value that is taken from the session increases as shwon below. Note that the requests are routed to the same pod. Session affinity is working.</p>
+<p><img alt="app2" src="../images/sessions-run/oc-app2.jpg" /></p>
+<p>If the pod is then deleted it will be replaced by OpenShift:</p>
+<div class="codehilite"><pre><span></span><span class="n">oc</span> <span class="k">delete</span> <span class="n">pod</span> <span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">g5c8k</span>
+<span class="n">pod</span> <span class="ss">&quot;session-sample-1-g5c8k&quot;</span> <span class="n">deleted</span>
+
+<span class="n">oc</span> <span class="k">get</span> <span class="n">pods</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">sample</span>
+<span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="mi">5</span><span class="n">hzd5</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">3</span><span class="n">m</span>
+<span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="mi">7</span><span class="n">w8gh</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">23</span><span class="n">s</span>
+<span class="k">session</span><span class="o">-</span><span class="n">sample</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="n">dnpsg</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">10</span><span class="n">d</span>
+</pre></div>
+
+
+<p>If an attempt is then made to refresh the browser page or increment the count then the request is routed to the different pod and session state is lost:</p>
+<p><img alt="app4" src="../images/sessions-run/oc-app3.jpg" /></p>
+<p>If you want to ensure that session state is not lost when pod is removed, you will need to configure session caching or session persistence.</p>
+<h2 id="session-replication-using-caching-mechanisms">Session replication using caching mechanisms</h2>
+<p>Very often session affinity is not enough for application requirements and you need session state to be preserved in case of pod failure. One of the mechanisms that could be used is <em>session caching</em>. WebSphere Liberty has a <code>sessionCache-1.0</code> feature which provides distributed in-memory HttpSession caching. The <code>sessionCache-1.0</code> feature builds on top of an existing technology called <a href="https://www.jcp.org/en/jsr/detail?id=107">JCache (JSR 107)</a>, which offers a standardized distributed in-memory caching API.</p>
+<p>The <code>sessionCache-1.0</code> feature does not include a JCache implementation, so you need to pick one and reference it as a <code>&lt;library&gt;</code> in your <code>server.xml</code>. WebSphere/Open Liberty supports the following JCache implementations:
+- Hazelcast
+- WebSphere Extreme Scale
+- Infinispan
+- Ehcache</p>
+<h3 id="prepare-dockerfile-with-caching-configuration">Prepare DockerFile with caching configuration</h3>
+<p>This article shows how to enable <a href="https://hazelcast.org/">Hazelcast In-Memory Data Grid</a>, as it is easily available in many private cloud solutions.</p>
+<p>Enabling Hazelcast session caching retrieves the Hazelcast client libraries from the <a href="https://hub.docker.com/r/hazelcast/hazelcast/">hazelcast/hazelcast</a> Docker image, configures Hazelcast by copying a sample hazelcast.xml, and configures the Liberty server feature sessionCache-1.0 by including the XML snippet hazelcast-sessioncache.xml. By default, the Hazelcast Discovery Plugin for Kubernetes will auto-discover its peers within the same Kubernetes namespace. To enable this functionality, the Docker image author can include the following Dockerfile snippet, and choose from either client-server or embedded topology.</p>
+<p>Modify your current Dockerfile with the following lines:</p>
+<div class="codehilite"><pre><span></span><span class="c">### Hazelcast Session Caching ###</span>
+<span class="c"># Copy the Hazelcast libraries from the Hazelcast Docker image - paths for WebSphere Liberty</span>
+<span class="k">COPY</span> --from<span class="o">=</span>hazelcast/hazelcast --chown<span class="o">=</span><span class="m">1001</span>:0 /opt/hazelcast/lib/*.jar /opt/ibm/wlp/usr/shared/resources/hazelcast/
+
+<span class="c"># Copy the Hazelcast libraries from the Hazelcast Docker image - paths for Open Liberty</span>
+<span class="c"># COPY --from=hazelcast/hazelcast --chown=1001:0 /opt/hazelcast/lib/*.jar /opt/ol/wlp/usr/shared/resources/hazelcast/</span>
+
+<span class="c"># Instruct configure.sh to copy the client topology hazelcast.xml</span>
+<span class="k">ARG</span> <span class="nv">HZ_SESSION_CACHE</span><span class="o">=</span>client
+
+<span class="c"># Instruct configure.sh to copy the embedded topology hazelcast.xml and set the required system property</span>
+<span class="c">#ARG HZ_SESSION_CACHE=embedded</span>
+<span class="c">#ENV JAVA_TOOL_OPTIONS=&quot;-Dhazelcast.jcache.provider.type=server ${JAVA_TOOL_OPTIONS}&quot;</span>
+
+<span class="c">## This script will add the requested XML snippets and grow image to be fit-for-purpose</span>
+<span class="k">RUN</span> configure.sh
+</pre></div>
+
+
+<h3 id="deploy-hazelcast-in-openshift">Deploy Hazelcast in OpenShift</h3>
+<p>Hazelcast can be used in OpenShift. By default it requires paid version - Hazelcast Enterprise. But you can use also free version <a href="https://github.com/hazelcast/hazelcast-code-samples/blob/master/hazelcast-integration/openshift/hazelcast-cluster/hazelcast-openshift-origin">Hazelcast OpenShift Origin</a>. See details on this page <a href="https://github.com/hazelcast/hazelcast-code-samples/tree/master/hazelcast-integration/openshift">Hazelcast for OpenShift</a></p>
+<p>For this article you will use Hazelcast OpenShift Origin.</p>
+<h4 id="deploy-hazelcast-cluster">Deploy Hazelcast cluster</h4>
+<p>Easiest way to deploy Hazelcast is to use <a href="https://github.com/hazelcast/hazelcast-code-samples/blob/master/hazelcast-integration/openshift/hazelcast-cluster/hazelcast-openshift-origin/hazelcast.yaml">hazelcast.yaml</a> file provided by Hazelcast</p>
+<p>Create project for Hazelcast cluster</p>
+<p><code>$ oc new-project appmod-hazelcast</code></p>
+<p>Deploy Hazelcast cluster</p>
+<p><code>$ oc new-app -f hazelcast.yaml -p NAMESPACE=appmod-hazelcast</code></p>
+<p>Check the status of deployed cluster</p>
+<div class="codehilite"><pre><span></span>$ oc get all
+NAME              READY     STATUS              RESTARTS   AGE
+pod/hazelcast-0   <span class="m">1</span>/1       Running             <span class="m">0</span>          1m
+pod/hazelcast-1   <span class="m">1</span>/1       Running             <span class="m">0</span>          42s
+pod/hazelcast-2   <span class="m">0</span>/1       ContainerCreating   <span class="m">0</span>          2s
+
+NAME                        TYPE           CLUSTER-IP        EXTERNAL-IP                     PORT<span class="o">(</span>S<span class="o">)</span>          AGE
+service/hazelcast-service   LoadBalancer   x.x.x.x             y.y.y.y                       <span class="m">5701</span>:32567/TCP   1m
+
+NAME                         DESIRED   CURRENT   AGE
+statefulset.apps/hazelcast   <span class="m">3</span>         <span class="m">3</span>         1m
+</pre></div>
+
+
+<p>This cluster contains 3 replicas, look in one of the pods logs to check if all members are correctly detected. Look for similar messages:</p>
+<div class="codehilite"><pre><span></span>$ oc get pods
+
+Members <span class="o">{</span>size:3, ver:7<span class="o">}</span> <span class="o">[</span>
+    Member <span class="o">[</span><span class="m">192</span>.168.16.15<span class="o">]</span>:5701 - 9dc4af56-6df8-4a65-9890-68bf99e0ea5a
+    Member <span class="o">[</span><span class="m">192</span>.168.12.16<span class="o">]</span>:5701 - f927d37c-860d-4b38-88b4-b1f3dd97bfd1 this
+    Member <span class="o">[</span><span class="m">192</span>.168.22.15<span class="o">]</span>:5701 - ec8602a7-59b0-4dab-8446-3a8f32dac845
+<span class="o">]</span>
+</pre></div>
+
+
+<h4 id="deploy-openliberty-configured-for-hazelcast">Deploy OpenLiberty configured for Hazelcast</h4>
+<p>The Hazelcast client configured with OpenLiberty is using Kubernetes API to find Hazelcast cluster and requires a new ServiceAccount and ClusterRoleBinding</p>
+<p>Create project for the client application:</p>
+<p><code>$ oc new-project appmod-hazelcast-liberty</code></p>
+<p>Create a new ServiceAccount:</p>
+<p><code>$ oc create serviceaccount hazelcast-liberty -n appmod-hazelcast-liberty</code></p>
+<p>Create rbac.yaml with the following content:</p>
+<div class="codehilite"><pre><span></span><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">rbac.authorization.k8s.io/v1</span>
+<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ClusterRoleBinding</span>
+<span class="nt">metadata</span><span class="p">:</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">default-cluster</span>
+<span class="nt">roleRef</span><span class="p">:</span>
+  <span class="nt">apiGroup</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">rbac.authorization.k8s.io</span>
+  <span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ClusterRole</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">view</span>
+<span class="nt">subjects</span><span class="p">:</span>
+<span class="p p-Indicator">-</span> <span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ServiceAccount</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">hazelcast-liberty</span>
+  <span class="nt">namespace</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">appmod-hazelcast-liberty</span>
+</pre></div>
+
+
+<p>Then, apply <code>rbac.yaml</code>:</p>
+<div class="codehilite"><pre><span></span>$ kubectl apply -f rbac.yaml
+</pre></div>
+
+
+<p><em>Note</em>: You can be even more strict with the permissions and create your own Role. For details, please check the implementation of <a href="https://github.com/helm/charts/tree/master/stable/hazelcast">Hazelcast Helm Chart</a>.</p>
+<p>The following changes are required to a WebSphere Liberty deployment on OpenShift in order to use Hazelcast:</p>
+<ul>
+<li>an environment variable: <code>KUBERNETES_NAMESPACE</code> that is set to the namespace that Hazelcast is deployed in to</li>
+<li>the deployment much be updated to use the new serviceAccount by adding  the following to the <code>template/spec</code> section:</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="n">serviceAccountName</span><span class="o">:</span> <span class="n">hazelcast</span><span class="o">-</span><span class="n">liberty</span>
+<span class="n">serviceAccount</span><span class="o">:</span> <span class="n">hazelcast</span><span class="o">-</span><span class="n">liberty</span>
+</pre></div>
+
+
+<p>In order to validate that the in-memory session cache is working a similar test to the session affinity test is executed. There are two pods running the application:</p>
+<div class="codehilite"><pre><span></span><span class="n">oc</span> <span class="k">get</span> <span class="n">pods</span>
+<span class="n">NAME</span>                     <span class="n">READY</span>   <span class="n">STATUS</span>    <span class="n">RESTARTS</span>   <span class="n">AGE</span>
+<span class="k">session</span><span class="o">-</span><span class="n">hazel3</span><span class="o">-</span><span class="mi">2</span><span class="o">-</span><span class="mi">425</span><span class="n">tr</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">9</span><span class="n">d</span>
+<span class="k">session</span><span class="o">-</span><span class="n">hazel3</span><span class="o">-</span><span class="mi">2</span><span class="o">-</span><span class="n">p5gtd</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">9</span><span class="n">d</span>
+</pre></div>
+
+
+<p>On the first request shown below, the session is empty and the pod is <code>session-hazel3-2-425tr</code></p>
+<p><img alt="app1" src="../images/sessions-run/hazel-oc-app1.jpg" /></p>
+<p>After a few requests to the app, the same pod is being used and the session is being retained</p>
+<p><img alt="app2" src="../images/sessions-run/hazel-oc-app2.jpg" /></p>
+<p>If the pod is then deleted it will be replaced by OpenShift:</p>
+<div class="codehilite"><pre><span></span><span class="n">oc</span> <span class="k">delete</span> <span class="n">pod</span> <span class="k">session</span><span class="o">-</span><span class="n">hazel3</span><span class="o">-</span><span class="mi">2</span><span class="o">-</span><span class="mi">425</span><span class="n">tr</span>
+<span class="n">pod</span> <span class="ss">&quot;session-hazel3-2-425tr&quot;</span> <span class="n">deleted</span>
+
+<span class="n">oc</span> <span class="k">get</span> <span class="n">pods</span>
+<span class="n">NAME</span>                     <span class="n">READY</span>   <span class="n">STATUS</span>    <span class="n">RESTARTS</span>   <span class="n">AGE</span>
+<span class="k">session</span><span class="o">-</span><span class="n">hazel3</span><span class="o">-</span><span class="mi">2</span><span class="o">-</span><span class="n">p5gtd</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">9</span><span class="n">d</span>
+<span class="k">session</span><span class="o">-</span><span class="n">hazel3</span><span class="o">-</span><span class="mi">2</span><span class="o">-</span><span class="n">wc4wd</span>   <span class="mi">1</span><span class="o">/</span><span class="mi">1</span>     <span class="n">Running</span>   <span class="mi">0</span>          <span class="mi">18</span><span class="n">s</span>
+</pre></div>
+
+
+<p>If an attempt is then made to refresh the browser page or increment the count then the request is routed to the different pod (<code>session-hazel3-2--wc4wd</code>) but the session state is retained:</p>
+<p><img alt="app4" src="../images/sessions-run/hazel-oc-app3.jpg" /></p>
+<h2 id="session-persistence-using-database">Session persistence using database</h2>
+<p>In some cases you may want to use database instead of cache for storing session data, especially if you earlier already were using database as session persistent layer.</p>
+<p>WebSphere Liberty fully supports session persistence using data base using <code>sessionDatabase-1.0</code> feature. You will utilize dynamic configuration support in Liberty to configure session persistence without modifying your original server configuration.</p>
+<h3 id="liberty-configuration">Liberty configuration</h3>
+<p>Create new configuration file <code>session-db.xml</code> with the following contents. It configures required feature, database driver libraries, datasource, and http session management.</p>
+<div class="codehilite"><pre><span></span><span class="nt">&lt;server</span> <span class="na">description=</span><span class="s">&quot;Demonstrates HTTP Session Persistence Configuration&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;featureManager&gt;</span>
+          <span class="nt">&lt;feature&gt;</span>sessionDatabase-1.0<span class="nt">&lt;/feature&gt;</span>
+  <span class="nt">&lt;/featureManager&gt;</span>
+
+  <span class="nt">&lt;library</span> <span class="na">id=</span><span class="s">&quot;DB2Lib&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;fileset</span> <span class="na">dir=</span><span class="s">&quot;${server.config.dir}/resources/db2&quot;</span> <span class="na">includes=</span><span class="s">&quot;*.jar&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/library&gt;</span>
+
+  <span class="nt">&lt;dataSource</span> <span class="na">id=</span><span class="s">&quot;SessionsDS&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;jdbcDriver</span> <span class="na">libraryRef=</span><span class="s">&quot;DB2Lib&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;properties.db2.jcc</span> <span class="na">databaseName=</span><span class="s">&quot;${env.DB2_DBNAME}&quot;</span> <span class="na">password=</span><span class="s">&quot;${env.DB2_PASSWORD}&quot;</span> <span class="na">portNumber=</span><span class="s">&quot;${env.DB2_PORT}&quot;</span> <span class="na">serverName=</span><span class="s">&quot;${env.DB2_HOST}&quot;</span> <span class="na">user=</span><span class="s">&quot;${env.DB2_USER}&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;connectionManager</span> <span class="na">agedTimeout=</span><span class="s">&quot;0&quot;</span> <span class="na">connectionTimeout=</span><span class="s">&quot;180&quot;</span> <span class="na">maxIdleTime=</span><span class="s">&quot;1800&quot;</span> <span class="na">maxPoolSize=</span><span class="s">&quot;10&quot;</span> <span class="na">minPoolSize=</span><span class="s">&quot;1&quot;</span> <span class="na">reapTime=</span><span class="s">&quot;180&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/dataSource&gt;</span>
+
+  <span class="nt">&lt;httpSessionDatabase</span> <span class="na">id=</span><span class="s">&quot;SessionDB&quot;</span> <span class="na">dataSourceRef=</span><span class="s">&quot;SessionsDS&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;httpSession</span> <span class="na">cloneId=</span><span class="s">&quot;${env.HOSTNAME}&quot;</span><span class="nt">/&gt;</span>
+
+<span class="nt">&lt;/server&gt;</span>
+</pre></div>
+
+
+<p>In the configuration you are utilizing environment variables for database access parameters such as host, port, userid, etc (e.g. <code>${env.DB2_HOST}</code>). These variables will be provided during the deployment.</p>
+<h3 id="modifying-the-dockerfile">Modifying the Dockerfile</h3>
+<p>As now solution requires additional configuration file and database driver to access session database, that needs to be added to the Dockerfile.</p>
+<div class="codehilite"><pre><span></span><span class="o">#</span> <span class="k">session</span> <span class="n">persistence</span>
+<span class="k">COPY</span> <span class="c1">--chown=1001:0 db2drivers/ /config/resources/db2</span>
+<span class="k">COPY</span> <span class="c1">--chown=1001:0 src/main/liberty/config/session-db.xml /config/configDropins/overrides/</span>
+</pre></div>
+
+
+<h3 id="deploying-to-openshift">Deploying to OpenShift</h3>
+<p>The only changes required to an existing WebSphere Liberty deployment are to add the Environment Variables for the DB2 database that is being used as the session database:</p>
+<ul>
+<li>Environment Variables: <code>DB2_HOST</code>, <code>DB2_PORT</code>, <code>DB2_DBNAME</code>, <code>DB2_USER</code> and <code>DB2_PASSWORD</code> should be added to the deployment.</li>
+</ul>
+<p>The same test that has been used for <em>session affinity</em> and <em>in-memory session cache</em> can be used to validate <em>session persistence using a database</em>.</p>
+<h2 id="summary">Summary</h2>
+<p>In this article we have demonstrated how to use session affinity, session caching using an in-memory cache and session persistence using a database with WebSphere Liberty on OpenShift.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

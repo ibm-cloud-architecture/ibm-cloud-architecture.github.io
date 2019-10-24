@@ -2,7 +2,7 @@
 layout: default
 title: Application Modernization
 color-compute: Purple
-last_updated: 2019-10-18
+last_updated: 2019-10-24
 ---
 
 ## {{ page.title }}
@@ -10,11 +10,11 @@ last_updated: 2019-10-18
 Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Code
-- [CloudPak for Applications: Application runtime modernization by using WebSphere Liberty](https://github.com/ibm-cloud-architecture/cloudpak-for-applications/tree/liberty) - move an application to a 'built for the cloud' runtime with the least amount of effort.
+- [Cloud Pak for Applications: Application runtime modernization by using WebSphere Liberty](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/liberty/) - move an application to a 'built for the cloud' runtime with the least amount of effort.
 
-- [CloudPak for Applications: Application operational modernization by using traditional WebSphere in containers](https://github.com/ibm-cloud-architecture/cloudpak-for-applications/tree/was90)- containerize WebSphere ND application  to be moved to the cloud without code changes.
+- [Cloud Pak for Applications: Application operational modernization by using traditional WebSphere in containers](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/was90/)- containerize WebSphere ND application  to be moved to the cloud without code changes.
 
-- [CloudPak for Applications: Spring Modernization](https://github.com/ibm-cloud-architecture/cloudpak-for-applications/tree/spring) - With the Open Liberty project, IBM have provided support for Spring Boot and made optimizations to the runtime and Docker images specifically for Spring Boot.
+- [Cloud Pak for Applications: Spring Modernization](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/spring/) - With the Open Liberty project, IBM have provided support for Spring Boot and made optimizations to the runtime and Docker images specifically for Spring Boot.
 
 - [Enterprise Application Modernization through Java EE on Cloud](https://github.com/ibm-cloud-architecture/refarch-jee) - master GitHub repository.
 

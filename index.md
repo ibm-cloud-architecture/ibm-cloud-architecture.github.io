@@ -48,9 +48,9 @@ Reference implementation for building and running analytics application deployed
 
 [Go>>](deliverables/data-and-analytics.html)
 
-### Hybrid Cloud Integration & Development
+### Integration Modernization
 
-Reference architecture material describing an approach to connect components which are split across cloud and on-premises environments, or across public and private clouds -- even across different cloud providers.
+Achieve integration across hybrid and multicloud environments.  Explore how traditional integration patterns are evolving towards APIs and microservices, event streaming and agile integration.
 
 [Go>>](deliverables/integration.html)
 

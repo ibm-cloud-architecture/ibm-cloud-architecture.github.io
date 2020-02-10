@@ -20,6 +20,8 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Monolith to Microservices](https://github.com/ibm-cloud-architecture/refarch-jee-monolith-to-microservices) - Microservices transformation GitHub repository
 
+- [Hosting a Liberty Feature repository internally](https://medium.com/@david.vandepol/hosting-a-liberty-feature-repository-internally-2588909c34e5)  - Create docker container with Liberty features server to host in an air gapped environment
+
 
 ### Solutions
 

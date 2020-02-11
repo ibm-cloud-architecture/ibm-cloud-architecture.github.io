@@ -9,6 +9,18 @@ last_updated: 2020-02-11
 
 Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
+### End-to-end Solutions
+
+- [Application Runtime modernization by using WebSphere Liberty](https://www.ibm.com/cloud/architecture/architectures/runtime-modernization-solution) - Using the Customer Order reference application, this solution documents the journey of bringing existing middleware applications to a OpenShift Kubernetes environment including Analyze, Build & Deploy and Run & Manage phases
+
+- [Operational modernization by using traditional WebSphere](https://www.ibm.com/cloud/architecture/architectures/op-modernization-solution) - Using the Customer Order reference application, this solution  gives an operations team the opportunity to embrace the practices for modern container operations without putting change requirements on the development team.
+
+### Videos
+
+- [Applications Runtime modernization by using WebSphere Liberty Video](https://mediacenter.ibm.com/media/Cloud+Pak+for+Applications+-+WebSphere+Runtime+Modernization/1_x1xntvmz)
+
+- [Operational modernization by using traditional WebSphere Video](https://mediacenter.ibm.com/media/Cloud+Pak+for+Applications+-+WebSphere+Runtime+Modernization/1_x1xntvmzsla)
+
 ### Code
 - [Cloud Pak for Applications: Application runtime modernization by using WebSphere Liberty](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/liberty/) - move an application to a 'built for the cloud' runtime with the least amount of effort.
 
@@ -20,16 +32,10 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Monolith to Microservices](https://github.com/ibm-cloud-architecture/refarch-jee-monolith-to-microservices) - Microservices transformation GitHub repository
 
+### Useful OpenShift and Liberty Assets
 - [Hosting a Liberty Feature repository internally](https://medium.com/@david.vandepol/hosting-a-liberty-feature-repository-internally-2588909c34e5)  - Create docker container with Liberty features server to host in an air gapped environment
 
-
-### Solutions
-
-- [Applications Runtime modernization by using WebSphere Liberty](https://www.ibm.com/cloud/garage/architectures/application-modernization/runtime-modernization) - Using the Customer Order reference application, this solution documents the journey of bringing existing middleware applications to a OpenShift Kubernetes environment including Analyze, Build & Deploy and Run & Manage phases
-
-- [Operational modernization by using traditional WebSphere](https://www.ibm.com/cloud/garage/architectures/application-modernization/op-modernization) - Using the Customer Order reference application, this solution  gives an operations team the opportunity to embrace the practices for modern container operations without putting change requirements on the development team.
-
-
+- [Installing OpenShift Cluster Logging in a Private Cloud environment](https://github.ibm.com/dmulley/guides/blob/master/OCP4xLogging.md) - steps to install the Cluster-wide Logging Operator in to an OCP 4.2/4.3 cluster to collect logs from application containers.
 
 ### Reference Architectures
 

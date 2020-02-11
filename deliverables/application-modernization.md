@@ -2,7 +2,7 @@
 layout: default
 title: Application Modernization
 color-compute: Purple
-last_updated: 2019-10-24
+last_updated: 2020-02-11
 ---
 
 ## {{ page.title }}

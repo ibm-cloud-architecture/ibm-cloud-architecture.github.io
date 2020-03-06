@@ -15,6 +15,9 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Operational modernization by using traditional WebSphere](https://www.ibm.com/cloud/architecture/architectures/op-modernization-solution) - Using the Customer Order reference application, this solution  gives an operations team the opportunity to embrace the practices for modern container operations without putting change requirements on the development team.
 
+### Installation 
+- [Installing CloudPak for Applications 4.0.1 in OCP 4.3 beta/IBM Cloud (ROKS)](https://github.com/vandepol/CP4AonOCPonIBMCloud/blob/master/README.md)
+
 ### Videos
 
 - [Applications Runtime modernization by using WebSphere Liberty Video](https://mediacenter.ibm.com/media/Cloud+Pak+for+Applications+-+WebSphere+Runtime+Modernization/1_x1xntvmz)

@@ -37,6 +37,12 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Build to Manage lab - Java](https://www.github.com/rafal-szypulka/b2m-java/)
 
+### Webinars
+
+- [Reinvent your Cloud Operations](https://community.ibm.com/community/user/imwuc/viewdocument/reinvent-your-cloud-operations-1?CommunityKey=da043955-1299-4c40-a6a8-479e62046c8f&tab=librarydocuments)
+- [Chatting about ChatOps](https://community.ibm.com/community/user/imwuc/viewdocument/chatting-about-chatops-why-there-a?CommunityKey=da043955-1299-4c40-a6a8-479e62046c8f&tab=librarydocuments)
+- [Site Reliability Engineers Their Love of Automation!](https://community.ibm.com/community/user/imwuc/viewdocument/site-reliability-engineers-and-thei?CommunityKey=da043955-1299-4c40-a6a8-479e62046c8f&tab=librarydocuments)
+
 ### Reference Architectures
 
 - [Service management for IT and cloud services](https://www.ibm.com/cloud/garage/architectures/serviceManagementArchitecture)

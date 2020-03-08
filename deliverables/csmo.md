@@ -15,9 +15,9 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Points of View
 
-- [Incident Management](https://www.ibm.com/cloud/garage/architectures/implementation/incident_management)
+- [Incident Management](https://www.ibm.com/cloud/architecture/architectures/incidentManagementDomain/overview)
 
-- [Problem Management](https://www.ibm.com/cloud/garage/architectures/implementation/sm_problem_management)
+- [Problem Management](https://www.ibm.com/cloud/architecture/architectures/problemManagementDomain/overview)
 
 ### Code
 

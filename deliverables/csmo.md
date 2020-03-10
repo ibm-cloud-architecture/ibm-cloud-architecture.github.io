@@ -33,9 +33,9 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Monitor, alert, & ticket the IBM Cloud Private infrastructure with Prometheus and Graphana](https://github.com/ibm-cloud-architecture/CSMO-ICP)
 
-- [Build to Manage lab - Node.js](https://www.github.com/rafal-szypulka/b2m-nodejs/)
+- [Build to Manage lab - Node.js](https://www.github.com/ibm-cloud-architecture/b2m-nodejs/)
 
-- [Build to Manage lab - Java](https://www.github.com/rafal-szypulka/b2m-java/)
+- [Build to Manage lab - Java](https://github.com/ibm-cloud-architecture/b2m-java)
 
 ### Webinars
 

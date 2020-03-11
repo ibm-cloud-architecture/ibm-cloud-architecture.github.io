@@ -2,7 +2,7 @@
 layout: default
 title: Cloud Service Management & Operations
 color-compute: csmo
-last_updated: 2018-08-10
+last_updated: 2020-03-11
 ---
 
 ## {{ page.title }}

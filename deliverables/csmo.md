@@ -31,7 +31,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Incident Management](https://github.com/ibm-cloud-architecture/refarch-cloudnative-csmo/blob/master/doc/Incident_Management_Implementation.md)
 
-- [Monitor, alert, & ticket the IBM Cloud Private infrastructure with Prometheus and Graphana](https://github.com/ibm-cloud-architecture/CSMO-ICP)
+- [Monitor, alert, & ticket the OCP infrastructure with Prometheus and Grafana](https://github.com/ibm-cloud-architecture/CSMO-ICP)
 
 - [Build to Manage lab - Node.js](https://www.github.com/ibm-cloud-architecture/b2m-nodejs/)
 

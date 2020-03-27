@@ -2,16 +2,23 @@
 layout: default
 title: Cloud Native Application Development
 color-compute: Blue
-last_updated: 2019-10-18
+last_updated: 2020-03-27
 ---
 
 ## {{ page.title }}
 
 Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
+### Architecture Center
+
+- [Cloud Native Principles](https://www.ibm.com/cloud/architecture/architecture/practices/cloud-native-principles)
+- [Cloud Native Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/cloud-native)
+- [Microservices Reference Architecture](https://www.ibm.com/cloud/architecture/architectures/microservices)
+
 ### Learning Journeys
-- [Learning Cloud Native 101](https://ibm-cloud-architecture.github.io/learning-cloudnative-101)
-- [Learning Kabanero Enterprise 101](https://ibm-cloud-architecture.github.io/Learning-Kabanero-101)
+- [Learning Cloud Native 101](https://cloudnative101.dev)
+- [Learning Cloud Pak for Applications - Cloud-Native Apps 101](https://ibm-cloud-architecture.github.io/Learning-Kabanero-101)
+- [Learning Distributed Tracing 101](https://ibm-cloud-architecture.github.io/learning-distributed-tracing-101)
 
 ### Blogs
 
@@ -37,12 +44,6 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 - [Cluster to Cluster Microservices Communications](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring/docs/cluster-to-cluster)
 - [Microclimate Showcase](https://github.com/ibm-cloud-architecture/refarch-cloudnative-bluecompute-microclimate) - An end-to-end cloud-native development environment experience, using Blue Compute as the application of choice.
 - [Passing configuration at runtime to SpringBoot applications running on WebSphere Liberty](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes/tree/spring/docs/spring-on-liberty)
-- [Cloud Native Distributing Tracing for Node.js using Jaeger](https://github.com/ibm-cloud-architecture/tutorial-jaeger-istio-tracing-nodejs)
-
-
-### Reference Architectures
-
-- [Microservices for fast time to market and improved app quality](https://www.ibm.com/devops/method/content/architecture/microservices/0_0)
 
 
 ### Tutorials

@@ -39,6 +39,7 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Webinars
 
+- [Principles for Building Fault-Tolerant Applications](https://speakerdeck.com/adhorn/applying-chaos-engineering-principles-for-building-fault-tolerant-applications)
 - [Reinvent your Cloud Operations](https://community.ibm.com/community/user/imwuc/viewdocument/reinvent-your-cloud-operations-1?CommunityKey=da043955-1299-4c40-a6a8-479e62046c8f&tab=librarydocuments)
 - [Chatting about ChatOps](https://community.ibm.com/community/user/imwuc/viewdocument/chatting-about-chatops-why-there-a?CommunityKey=da043955-1299-4c40-a6a8-479e62046c8f&tab=librarydocuments)
 - [Site Reliability Engineers Their Love of Automation!](https://community.ibm.com/community/user/imwuc/viewdocument/site-reliability-engineers-and-thei?CommunityKey=da043955-1299-4c40-a6a8-479e62046c8f&tab=librarydocuments)

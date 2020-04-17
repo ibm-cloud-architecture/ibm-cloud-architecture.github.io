@@ -17,8 +17,8 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Learning Journeys
 - [Learning Cloud Native 101](https://cloudnative101.dev)
-- [Learning Cloud Pak for Applications - Cloud-Native Apps 101](https://ibm-cloud-architecture.github.io/learning-cp4apps-101)
-- [Learning Distributed Tracing 101](https://ibm-cloud-architecture.github.io/learning-distributed-tracing-101)
+- [Learning Cloud Pak for Applications - Cloud-Native Apps 101](https://cp4apps.cloudnative101.dev)
+- [Learning Distributed Tracing 101](https://tracing.cloudnative101.dev)
 
 ### Garage Tools
 - [Cloud Native Toolkit](https://cloudnativetoolkit.dev)

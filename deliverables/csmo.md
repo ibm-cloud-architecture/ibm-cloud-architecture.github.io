@@ -50,6 +50,14 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 ### Recent Blog Articles
 
+- 2020-04-27 [An OCP 4.3 UPI deployment on a vSphere environment.](https://medium.com/ibm-garage/an-ocp-4-3-upi-deployment-on-a-vsphere-environment-b0aef0230847)
+
+- 2020-04-13 [Making a Virtual War Room — the Journey to ChatOps](https://medium.com/ibm-garage/the-virtual-war-room-a03f7fcfbca2)
+
+- 2020-03-23 [Better Living Through ChatOps](https://medium.com/ibm-garage/better-living-through-chatops-df66872893e7)
+
+- 2020-03-18 [The Virtual War Room](https://medium.com/ibm-garage/the-virtual-war-room-a03f7fcfbca2)
+
 - 2019-09-17  [Building a topology using Agile Service Manager's REST Interface](https://medium.com/ibm-garage/topology-modelling-using-agile-service-manager-a-tutorial-2e521040ea64)
 
 - 2019-09-03  [Topology Modeling using Agile Service Manager: A tutorial.](https://medium.com/ibm-garage/topology-modelling-using-agile-service-managers-rest-interface-7de14a85e333)
@@ -60,12 +68,14 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 #### CSMO Lessons from the Lunar Landings
 
-- 2019-08-19  [ChatOps — Lessons from the Apollo Lunar Landings — Part V](https://medium.com/ibm-garage/chatops-lessons-from-the-apollo-lunar-landings-part-v-d8995d901aaf)
+- 2020-04-11 [Lessons from the Lunar Landing — Resilience and redundancy on the way to the Moon - Part X](https://medium.com/ibm-garage/lessons-from-the-lunar-landing-resilience-and-redundancy-on-the-way-to-the-moon-part-x-c4aebeaffa1)
 
-- 2019-12-05  [Lightning Strikes! - Lessons from the Apollo Lunar Landings — Part VI](https://medium.com/ibm-garage/lightning-strikes-92482387cab8)
-
-- 2019-12-23  [Operational Scorecard - Lessons Part VII](https://medium.com/ibm-garage/operational-scorecard-lessons-from-the-apollo-lunar-landings-part-vii-8b1c8be11b1e)
+- 2020-03-31 [Lessons from the Lunar Landing — Quarantine Success in DevSecOps](https://medium.com/ibm-garage/lessons-from-the-lunar-landing-devsecops-quarantine-62a3c0b8552d)
 
 - 2019-12-31  [How the Americans Won the Space Race — MVP vs POC - Lessons Part VIII](https://medium.com/ibm-garage/how-the-americans-won-the-space-race-mvp-vs-poc-part-viii-of-lessons-from-the-lunar-landings-afd86c5df134)
 
+- 2019-12-23  [Operational Scorecard - Lessons Part VII](https://medium.com/ibm-garage/operational-scorecard-lessons-from-the-apollo-lunar-landings-part-vii-8b1c8be11b1e)
 
+- 2019-12-05  [Lightning Strikes! - Lessons from the Apollo Lunar Landings — Part VI](https://medium.com/ibm-garage/lightning-strikes-92482387cab8)
+
+- 2019-08-19  [ChatOps — Lessons from the Apollo Lunar Landings — Part V](https://medium.com/ibm-garage/chatops-lessons-from-the-apollo-lunar-landings-part-v-d8995d901aaf)

@@ -19,6 +19,8 @@ Updated: {{ page.last_updated | date: "%B %d, %Y" }}
 
 - [Problem Management](https://www.ibm.com/cloud/architecture/architectures/problemManagementDomain/overview)
 
+- [Build for Reliability](https://www.ibm.com/garage/method/practices/manage/build-for-reliability/overview)
+
 ### Code
 
 - [Monitoring Microservices](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes-csmo)

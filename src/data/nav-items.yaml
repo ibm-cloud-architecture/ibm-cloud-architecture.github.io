@@ -1,0 +1,42 @@
+- title: Garage Solution Engineering
+  pages:
+    - path: /gse/
+- title: What's New
+  pages:
+    - title: What's New
+      path: /news/
+- title: Web Sites
+  pages:
+    - title: GSE Web Sites
+      path: /websites/gse/
+    - title: IBM Web Sites We Contribute To
+      path: /websites/ibm/
+    - title: Cloud Technologies
+      path: /websites/cloud/
+- title: Code
+  pages:
+    - title: Code
+      path: /code/
+- title: Blogs
+  pages:
+    - title: Blogs
+      path: /blogs/
+- title: Videos & Webinars
+  pages:
+    - title: Demonstrations
+      path: /video/demos/
+    - title: Presentations
+      path: /video/presentations/
+    - title: Webinars
+      path: /video/webinars/
+- title: Tutorials
+  pages:
+    - title: Tutorials
+      path: /tutorials/
+- title: Courses
+  pages:
+    - title: Courses
+      path: /courses/
+- title: Contribute to this Site
+  pages:
+    - path: /contribute/

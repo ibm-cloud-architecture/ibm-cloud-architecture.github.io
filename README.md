@@ -6,7 +6,7 @@ IBM Garage To Go
 <p align="left">
     <a href="https://github.ibm.com/CASE/cp4mcm-bootcamp/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="The MCM Bootcamp is released under the Apache-2.0 license" />
-    <a href="https://travis.ibm.com/CASE/cp4mcm-bootcamp"><img src="https://travis.ibm.com/CASE/cp4mcm-bootcamp.svg?token=bsyfqHy4xhMwWSdQvCND&branch=master" alt="Travis"></a>
+    <a href="https://travis-ci.org/github/ibm-cloud-architecture/ibm-cloud-architecture.github.io"><img src="https://travis-ci.org/ibm-cloud-architecture/ibm-cloud-architecture.github.io.svg?branch=master" alt="Travis"></a>
   </a>
 </p>
 

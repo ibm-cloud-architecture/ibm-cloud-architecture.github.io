@@ -19,4 +19,4 @@ deploy:
   local_dir: public
   fqdn: ibm-cloud-architecture.github.io
   on:
-    branch: master
+    branch: master-content

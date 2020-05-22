@@ -4,9 +4,10 @@ node_js:
 script: npm run build
 branches:
   only:
-  - master
+    - master-content
 deploy:
   provider: pages
+  target_branch: master
   skip_cleanup: true
   github_url: github.com
   github_token: $GITHUB_TOKEN

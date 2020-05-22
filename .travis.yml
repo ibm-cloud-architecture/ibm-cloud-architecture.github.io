@@ -17,6 +17,5 @@ deploy:
   github_token: $GITHUB_TOKEN
   keep_history: false
   local_dir: public
-  fqdn: ibm-cloud-architecture.github.io
   on:
     branch: master-content

@@ -3,9 +3,7 @@ node_js:
   - 11
 script: npm run build
 after_script:
-  - cp .nojekyll public/
-  - cp README.md public/
-  - cp LICENSE public/
+  - touch public/.nojekyll
 branches:
   only:
     - master-content

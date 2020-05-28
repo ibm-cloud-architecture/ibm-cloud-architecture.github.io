@@ -1,7 +1,7 @@
 {
   "name": "ibm-gse-assets",
   "version": "1.0.0",
-  "homepage": "https://dthiesse.github.io/gselanding/",
+  "homepage": "https://ibm-cloud-architecture.github.io/",
   "license": "Apache-2.0",
   "scripts": {
     "predeploy": "npm run build",

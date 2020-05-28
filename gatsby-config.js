@@ -15,7 +15,8 @@ module.exports = {
         repository: {
           baseUrl:
             'https://github.com/ibm-cloud-architecture/ibm-cloud-architecture.github.io',
-          subDirectory: '/'
+          subDirectory: '/',
+          branch: 'master-content',
         }
       }
     },

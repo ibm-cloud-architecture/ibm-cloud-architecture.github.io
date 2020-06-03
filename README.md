@@ -4,8 +4,8 @@ IBM Garage To Go
 </h1>
 
 <p align="left">
-    <a href="https://github.ibm.com/CASE/cp4mcm-bootcamp/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="The MCM Bootcamp is released under the Apache-2.0 license" />
+    <a href="https://github.com/ibm-cloud-architecture/ibm-cloud-architecture.github.io/blob/master-content/LICENSE">
+    <img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="IBM Garage to Go is released under the Apache-2.0 license" />
     <a href="https://travis-ci.org/github/ibm-cloud-architecture/ibm-cloud-architecture.github.io"><img src="https://travis-ci.org/ibm-cloud-architecture/ibm-cloud-architecture.github.io.svg?branch=master-content" alt="Travis"></a>
   </a>
 </p>
@@ -39,9 +39,9 @@ npm run deploy
 ```
 
 The process of contributing content to this site is fully described at
-https://ibm-cloud-architecture.github.io/contribute/.
+[https://ibm-cloud-architecture.github.io/contribute/](https://ibm-cloud-architecture.github.io/contribute/).
 
-The result of the `deploy` can be viewed here - https://github.com/ibm-cloud-architecture/ibm-cloud-architecture.github.io/
+The result of the `deploy` can be viewed here - [https://ibm-cloud-architecture.github.io/](https://ibm-cloud-architecture.github.io/).
 
 **Note:** There is a time delay between when the deploy process completes and when the
 content is available on the published site.

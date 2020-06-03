@@ -10,7 +10,7 @@ IBM Garage To Go
   </a>
 </p>
 
-## IBM Garage Solution Engineering Assets To Go
+## IBM Garage To Go
 
 This site is a one stop shop for assets and tools that can help you to understand and implement IBM Cloud Solutions to meet your application requirements. These assets range from blogs, webinars, videos, and courses to help you understand cloud concepts and IBM solutions to code and tools to ease your implementation.
 
@@ -29,15 +29,19 @@ npm install
 
 ### Publish Content
 
-Currently, the content is published to the GitHub pages site through the `gh-pages` branch
-using the `gh-pages` npm module. All of the details for handling the publishing are covered within
-the deploy script. The deploy can be run using the following:
+Currently, the content is published to the GitHub pages site through the `master` branch. The source content is in the `master-content` branch.
+All of the details for handling the publishing are covered within
+the deploy script. After running `npm install` on your local machine,
+the deploy can be tested locally using the following:
 
 ```
 npm run deploy
 ```
 
-The result of the `deploy` can be viewed here - https://pages.https://github.com/ibm-cloud-architecture/ibm-cloud-architecture.github.io/
+The process of contributing content to this site is fully described at
+https://ibm-cloud-architecture.github.io/contribute/.
+
+The result of the `deploy` can be viewed here - https://github.com/ibm-cloud-architecture/ibm-cloud-architecture.github.io/
 
 **Note:** There is a time delay between when the deploy process completes and when the
 content is available on the published site.
@@ -45,5 +49,4 @@ content is available on the published site.
 ### Administrators
 
 - Dave Thiessen (dthiesse@us.ibm.com)
-- Gang Chen (gangchen@us.ibm.com)
 

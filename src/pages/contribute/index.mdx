@@ -131,10 +131,10 @@ Do not miss this important step.
 4. In a terminal window command line, working from the 
 directory of your local
 cloned repository, create a new development branch off the targeted 
-upstream branch, which is `master`.
+upstream branch, which is `master-content`.
 
    ```
-   git checkout -b <my-feature-branch> master
+   git checkout -b <my-feature-branch> master-content
    ```
 
 5. Do your work:
@@ -163,7 +163,7 @@ delivered upstream while you were locally developing, letting you
 manually resolve any conflicts.
 
    ```
-   git branch --set-upstream-to=upstream/master
+   git branch --set-upstream-to=upstream/master-content
    git rebase
    ```
    Instructions on how to manually resolve a conflict and commit the 
@@ -202,15 +202,15 @@ to **master**. Then pull to your local cloned repo the latest
 changes from the upstream master branch (that is, the pull request).
 
    ```
-   git checkout master
-   git pull upstream master
+   git checkout master-content
+   git pull upstream master-content
    ```
 
 11. Now push those latest upstream changes that you just pulled 
 locally to your forked repository.
 
    ```
-   git push origin master
+   git push origin master-content
    ```
 
    Now your forked repository and your local cloned repository are

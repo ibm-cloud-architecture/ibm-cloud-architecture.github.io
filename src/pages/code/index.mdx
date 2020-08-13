@@ -85,3 +85,22 @@ can create, report on, and delete cloud services, applications and other resourc
 in an automated way. These scripts could be useful for anyone who needs to 
 consistently manage cloud resources under a set of user ids, for education 
 courses or other situations.
+
+### **Code Example**
+
+```
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: pvc[^1]
+spec:
+  accessModes: 
+  - ReadWriteOnce[^2]
+  resources:
+    requests:
+      storage: 1Gi[^3]
+```
+[^1]: A unique name that represents the PersistentVolumeClaim.
+[^2]: The PersistentVolumeClaim's access mode. With `ReadWriteOnce`, 
+the volume can be mounted with read and write permissioms by a single node.
+[^3]: The size of the PersistentVolumeClaim.

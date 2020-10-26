@@ -6,8 +6,8 @@ title: Code
 
 In the course of helping clients and testing new ideas for ourselves,
 the GSE team produces a variety of tools and automation scripts
-that might be useful to you. Most of them are housed in github 
-repos. They are provided as is. If you have problems or suggestions, 
+that might be useful to you. Most of them are housed in github
+repos. They are provided as is. If you have problems or suggestions,
 please raise
 a github issue on the associated repo. Support will be on a best
 effort basis.
@@ -16,45 +16,45 @@ effort basis.
 
 ### **Application Modernization**
 
-Application modernization is the journey of moving existing 
+Application modernization is the journey of moving existing
 applications to a more modern cloud-native infrastructure.
-[This reference solution page](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/)
+[The Modernization Playbook](https://ibm-cloud-architecture.github.io/modernization-playbook/)
 describes and provides code for 3 scenarios:
 
-1. [Runtime modernization](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/liberty/)
-moves an application to a "built for the cloud" runtime with 
+1. [Runtime modernization](https://ibm-cloud-architecture.github.io/modernization-playbook/applications/liberty)
+moves an application to a "built for the cloud" runtime with
 the least amount of effort.
 
-2. [Spring runtime modernization](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/spring/)
-describes the process of upgrading 
-existing Spring Framework and Spring Boot v1 applications 
+2. [Spring runtime modernization](https://ibm-cloud-architecture.github.io/modernization-playbook/applications/spring/README)
+describes the process of upgrading
+existing Spring Framework and Spring Boot v1 applications
 to use Spring Boot v2.
 
-3. [Operational modernization](https://ibm-cloud-architecture.github.io/cloudpak-for-applications/was90/)
-is where the application is made to run in a container 
+3. [Operational modernization](https://ibm-cloud-architecture.github.io/modernization-playbook/applications/was90/README)
+is where the application is made to run in a container
 without any
 change.
 
 ### **Application Migration**
 
 The [Cloud Foundry Migration Tool](https://github.com/ibm-cloud-architecture/cf-transformation)
-assists you in migrating Cloud Foundry applications to 
-Kubernetes based platforms, such as OpenShift, and IBM 
-Kubernetes Service (IKS). There is also a 
+assists you in migrating Cloud Foundry applications to
+Kubernetes based platforms, such as OpenShift, and IBM
+Kubernetes Service (IKS). There is also a
 [short course](https://www.ibm.com/services/learning/) with
 video demos teaching how to use the tool by migrating some
-provided sample applications. Just search on 
+provided sample applications. Just search on
 "cloud foundry migration".
 
 ### **Digital Business Automation**
 
 [Denim Compute](https://github.com/ibm-cloud-architecture/denim-compute),
-A Digital Business Automation reference implementation on 
-the IBM Cloud Pak for Automation. This reference implementation 
-uses the IBM Cloud Pak for Automation to exemplify how the 
-different capabilities of the IBM Digital Business Automation 
-platform come together on a container-centric management 
-environment to support the execution of a complex business 
+A Digital Business Automation reference implementation on
+the IBM Cloud Pak for Automation. This reference implementation
+uses the IBM Cloud Pak for Automation to exemplify how the
+different capabilities of the IBM Digital Business Automation
+platform come together on a container-centric management
+environment to support the execution of a complex business
 process.
 
 ### **DevOps**
@@ -66,15 +66,15 @@ and other pipelines.
 ### **Event Driven Architecture**
 
 [Reefer Container Shipment](https://ibm-cloud-architecture.github.io/refarch-kc/)
-reference implementation. This IBM Event Driven architecture 
-reference implementation 
-illustrates the deployment of real time analytics on event 
-streams in the context of container shipment in an 
-[event driven architecture](https://ibm-cloud-architecture.github.io/refarch-eda/) 
-with event backbone, functions as service 
-and microservices. It aims to illustrate the different event 
-driven patterns like event sourcing, CQRS and Saga and give 
-a lot of best practices around implementing event driven 
+reference implementation. This IBM Event Driven architecture
+reference implementation
+illustrates the deployment of real time analytics on event
+streams in the context of container shipment in an
+[event driven architecture](https://ibm-cloud-architecture.github.io/refarch-eda/)
+with event backbone, functions as service
+and microservices. It aims to illustrate the different event
+driven patterns like event sourcing, CQRS and Saga and give
+a lot of best practices around implementing event driven
 microservices.
 
 ### **General**
@@ -82,8 +82,8 @@ microservices.
 [Cloud User ID Resource Management Scripts](https://github.com/ibm-cloud-architecture/cloud-user-resource-scripts)
 contains a set of shell scripts that, for a range of public cloud user ids,
 can create, report on, and delete cloud services, applications and other resources
-in an automated way. These scripts could be useful for anyone who needs to 
-consistently manage cloud resources under a set of user ids, for education 
+in an automated way. These scripts could be useful for anyone who needs to
+consistently manage cloud resources under a set of user ids, for education
 courses or other situations.
 
 ### **Code Example**
@@ -94,13 +94,13 @@ apiVersion: v1
 metadata:
   name: pvc[^1]
 spec:
-  accessModes: 
+  accessModes:
   - ReadWriteOnce[^2]
   resources:
     requests:
       storage: 1Gi[^3]
 ```
 [^1]: A unique name that represents the PersistentVolumeClaim.
-[^2]: The PersistentVolumeClaim's access mode. With `ReadWriteOnce`, 
+[^2]: The PersistentVolumeClaim's access mode. With `ReadWriteOnce`,
 the volume can be mounted with read and write permissioms by a single node.
 [^3]: The size of the PersistentVolumeClaim.
